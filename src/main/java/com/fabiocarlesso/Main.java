@@ -14,7 +14,12 @@ public class Main {
         tree.insert(60);
         tree.insert(80);
 
-        System.out.println("Inorder traversal:");
+        System.out.println("Inorder traversal (antes da inversão):");
+        tree.printInorder();
+
+        tree.invert();
+
+        System.out.println("\nInorder traversal (após a inversão):");
         tree.printInorder();
     }
 }

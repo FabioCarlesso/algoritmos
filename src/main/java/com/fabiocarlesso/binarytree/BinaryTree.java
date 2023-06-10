@@ -35,4 +35,23 @@ public class BinaryTree {
             inorderTraversal(currentNode.right);
         }
     }
+
+    public void invert() {
+        invertTree(root);
+    }
+
+    private void invertTree(Node currentNode) {
+        if (currentNode == null) {
+            return;
+        }
+
+        // Troca os filhos esquerdo e direito
+        Node temp = currentNode.left;
+        currentNode.left = currentNode.right;
+        currentNode.right = temp;
+
+        // Recursivamente inverte os filhos esquerdo e direito
+        invertTree(currentNode.left);
+        invertTree(currentNode.right);
+    }
 }
