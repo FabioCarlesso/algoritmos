@@ -1,15 +1,13 @@
 package com.fabiocarlesso;
 
-import com.fabiocarlesso.mainexecution.BinaryTreeInvertMain;
-import com.fabiocarlesso.mainexecution.BinaryTreeMain;
-import com.fabiocarlesso.mainexecution.DecisionTreeMain;
-import com.fabiocarlesso.mainexecution.GraphMain;
+import com.fabiocarlesso.mainexecution.*;
 
 public class Main {
     public static void main(String[] args) {
-        BinaryTreeMain.binaryTreeMain();
-        BinaryTreeInvertMain.binaryTreeInvertMain();
-        GraphMain.graphMain();
-        DecisionTreeMain.decisionTreeMain();
+        //BinaryTreeMain.binaryTreeMain();
+        //BinaryTreeInvertMain.binaryTreeInvertMain();
+        //GraphMain.graphMain();
+        //DecisionTreeMain.decisionTreeMain();
+        AprioriMain.aprioriMain();
     }
 }
