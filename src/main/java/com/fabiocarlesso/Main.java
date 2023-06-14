@@ -8,6 +8,7 @@ public class Main {
         //BinaryTreeInvertMain.binaryTreeInvertMain();
         //GraphMain.graphMain();
         //DecisionTreeMain.decisionTreeMain();
-        AprioriMain.aprioriMain();
+        //AprioriMain.aprioriMain();
+        KMeansMain.kMeansMain();
     }
 }
