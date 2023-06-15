@@ -8,6 +8,7 @@ import java.util.List;
 
 public class KMeansMain {
     public static void kMeansMain(){
+        System.out.println("\n\n KMeans");
         List<Point> points = new ArrayList<>();
         points.add(new Point(1.0, 1.0));
         points.add(new Point(1.5, 2.0));

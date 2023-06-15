@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat: create a decision tree">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/apriori/Apriori.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/apriori/AprioriItemSet.java" afterDir="false" />
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat: create a KMeans algorithm exemple">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/QuickSortMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/quicksort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/KMeansMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/KMeansMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686593290469</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: create a apriori algorithm exemple">
+      <created>1686676969286</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686676969286</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: create a KMeans algorithm exemple">
+      <created>1686749455545</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686749455545</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +158,8 @@
     <MESSAGE value="feat: create a simple graph" />
     <MESSAGE value="fix: reorder some packages and fix main" />
     <MESSAGE value="feat: create a decision tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create a decision tree" />
+    <MESSAGE value="feat: create a apriori algorithm exemple" />
+    <MESSAGE value="feat: create a KMeans algorithm exemple" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create a KMeans algorithm exemple" />
   </component>
 </project>

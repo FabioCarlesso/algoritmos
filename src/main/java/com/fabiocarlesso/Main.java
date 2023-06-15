@@ -9,6 +9,7 @@ public class Main {
         //GraphMain.graphMain();
         //DecisionTreeMain.decisionTreeMain();
         //AprioriMain.aprioriMain();
-        KMeansMain.kMeansMain();
+        //KMeansMain.kMeansMain();
+        QuickSortMain.quickSortMain();
     }
 }
