@@ -10,6 +10,7 @@ public class Main {
         //DecisionTreeMain.decisionTreeMain();
         //AprioriMain.aprioriMain();
         //KMeansMain.kMeansMain();
-        QuickSortMain.quickSortMain();
+        //QuickSortMain.quickSortMain();
+        InsertionSortMain.insertionSortMain();
     }
 }
