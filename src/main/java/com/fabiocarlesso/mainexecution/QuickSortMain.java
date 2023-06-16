@@ -1,6 +1,6 @@
 package com.fabiocarlesso.mainexecution;
 
-import com.fabiocarlesso.quicksort.QuickSort;
+import static com.fabiocarlesso.quicksort.QuickSort.quickSort;
 
 public class QuickSortMain {
     public static void quickSortMain() {
@@ -10,8 +10,7 @@ public class QuickSortMain {
         System.out.println("Array antes da ordenação:");
         printArray(array);
 
-        QuickSort q = new QuickSort();
-        q.quickSort(array, 0, array.length - 1);
+        quickSort(array, 0, array.length - 1);
 
         System.out.println("\nArray após a ordenação:");
         printArray(array);
