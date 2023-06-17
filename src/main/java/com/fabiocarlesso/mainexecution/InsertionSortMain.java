@@ -5,6 +5,7 @@ import static com.fabiocarlesso.util.Utils.printArray;
 
 public class InsertionSortMain {
     public static void insertionSortMain() {
+        System.out.println("\n\n Insertion Sort");
         int[] array = {7, 2, 1, 6, 8, 5, 3, 4};
 
         System.out.println("Array antes da ordenação:");
