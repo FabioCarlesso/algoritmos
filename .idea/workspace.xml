@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat: create Insertion Sort algorithm example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/insertionsort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/InsertionSortMain.java" afterDir="false" />
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="fix: Add some information on insertion sort">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/MergeSortMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mergesort/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/InsertionSortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/InsertionSortMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686943289045</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: create Insertion Sort algorithm example">
+      <created>1686943345004</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686943345004</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: create some util method">
+      <created>1687009747370</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687009747370</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +191,8 @@
     <MESSAGE value="feat: create a Quick Sort algorithm example" />
     <MESSAGE value="fix: Quick Sort main" />
     <MESSAGE value="feat: create Insertion Sort algorithm example" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create Insertion Sort algorithm example" />
+    <MESSAGE value="fix: create some util method" />
+    <MESSAGE value="fix: Add some information on insertion sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: Add some information on insertion sort" />
   </component>
 </project>

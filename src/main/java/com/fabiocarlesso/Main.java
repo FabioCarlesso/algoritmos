@@ -11,6 +11,7 @@ public class Main {
         //AprioriMain.aprioriMain();
         //KMeansMain.kMeansMain();
         //QuickSortMain.quickSortMain();
-        InsertionSortMain.insertionSortMain();
+        //InsertionSortMain.insertionSortMain();
+        MergeSortMain.mergeSortMain();
     }
 }
