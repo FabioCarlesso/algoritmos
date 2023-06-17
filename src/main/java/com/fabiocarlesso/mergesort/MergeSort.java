@@ -19,12 +19,8 @@ public class MergeSort {
         int[] leftArray = new int[n1];
         int[] rightArray = new int[n2];
 
-        for (int i = 0; i < n1; i++) {
-            leftArray[i] = array[left + i];
-        }
-        for (int j = 0; j < n2; j++) {
-            rightArray[j] = array[middle + 1 + j];
-        }
+        System.arraycopy(array, left, leftArray, 0, n1);
+        System.arraycopy(array, middle + 1, rightArray, 0, n2);
 
         int i = 0;
         int j = 0;
@@ -41,15 +37,14 @@ public class MergeSort {
             k++;
         }
 
+        mergeArrayLeftRight(array, n1, leftArray, i, k);
+        mergeArrayLeftRight(array, n2, rightArray, j, k);
+    }
+
+    private static void mergeArrayLeftRight(int[] array, int n1, int[] leftArray, int i, int k) {
         while (i < n1) {
             array[k] = leftArray[i];
             i++;
-            k++;
-        }
-
-        while (j < n2) {
-            array[k] = rightArray[j];
-            j++;
             k++;
         }
     }
