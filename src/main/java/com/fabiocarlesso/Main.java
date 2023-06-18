@@ -12,6 +12,7 @@ public class Main {
         //KMeansMain.kMeansMain();
         //QuickSortMain.quickSortMain();
         //InsertionSortMain.insertionSortMain();
-        MergeSortMain.mergeSortMain();
+        //MergeSortMain.mergeSortMain();
+        BreadthFirstSearchMain.breadthFirstSearchMain();
     }
 }

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat: create Merge Sort algorithm example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/bfs/BreadthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BreadthFirstSearchMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mergesort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mergesort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687010995755</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix: add some changes to Merge Sort">
+      <created>1687011741423</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687011741423</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +214,7 @@
     <MESSAGE value="fix: create some util method" />
     <MESSAGE value="fix: Add some information on insertion sort" />
     <MESSAGE value="feat: create Merge Sort algorithm example" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create Merge Sort algorithm example" />
+    <MESSAGE value="fix: add some changes to Merge Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: add some changes to Merge Sort" />
   </component>
 </project>
