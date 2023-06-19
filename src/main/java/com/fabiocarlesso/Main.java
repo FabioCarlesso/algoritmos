@@ -13,6 +13,7 @@ public class Main {
         //QuickSortMain.quickSortMain();
         //InsertionSortMain.insertionSortMain();
         //MergeSortMain.mergeSortMain();
-        BreadthFirstSearchMain.breadthFirstSearchMain();
+        //BreadthFirstSearchMain.breadthFirstSearchMain();
+        DepthFirstSearchMain.depthFirstSearchMain();
     }
 }

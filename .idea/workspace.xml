@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat: create Breadth First Search (BFS) algorithm example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/util/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/bfs/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/bfs/BreadthFirstSearch.java" afterDir="false" />
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="fix: refactor search class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/dfs/DepthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/DepthFirstSearchMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687124472297</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fix: refactor search class">
+      <created>1687195826379</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687195826379</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +229,7 @@
     <MESSAGE value="feat: create Merge Sort algorithm example" />
     <MESSAGE value="fix: add some changes to Merge Sort" />
     <MESSAGE value="feat: create Breadth First Search (BFS) algorithm example" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create Breadth First Search (BFS) algorithm example" />
+    <MESSAGE value="fix: refactor search class" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: refactor search class" />
   </component>
 </project>
