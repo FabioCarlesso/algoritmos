@@ -1,22 +1,14 @@
 package com.fabiocarlesso.bfs;
 
+import com.fabiocarlesso.util.Search;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BreadthFirstSearch {
-    private int vertices;
-    private LinkedList<Integer>[] adjList;
+public class BreadthFirstSearch extends Search {
 
     public BreadthFirstSearch(int vertices) {
-        this.vertices = vertices;
-        adjList = new LinkedList[vertices];
-        for (int i = 0; i < vertices; i++) {
-            adjList[i] = new LinkedList<>();
-        }
-    }
-
-    public void addEdge(int source, int destination) {
-        adjList[source].add(destination);
+        super(vertices);
     }
 
     public void breadthFirstSearch(int startVertex) {
