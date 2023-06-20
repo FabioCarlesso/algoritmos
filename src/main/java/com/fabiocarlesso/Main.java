@@ -14,6 +14,7 @@ public class Main {
         //InsertionSortMain.insertionSortMain();
         //MergeSortMain.mergeSortMain();
         //BreadthFirstSearchMain.breadthFirstSearchMain();
-        DepthFirstSearchMain.depthFirstSearchMain();
+        //DepthFirstSearchMain.depthFirstSearchMain();
+        DijkstraMain.dijkstraMain();
     }
 }
