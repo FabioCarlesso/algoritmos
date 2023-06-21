@@ -3,6 +3,9 @@ package com.fabiocarlesso.mainexecution;
 import com.fabiocarlesso.dijkstra.DijkstraAlgorithm;
 
 public class DijkstraMain {
+    private DijkstraMain() {
+        throw new IllegalStateException("Utility class");
+    }
     public static void dijkstraMain() {
         System.out.println("\n\n Dijkstra");
         int vertices = 6;

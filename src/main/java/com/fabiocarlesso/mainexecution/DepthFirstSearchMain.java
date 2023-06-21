@@ -3,6 +3,9 @@ package com.fabiocarlesso.mainexecution;
 import com.fabiocarlesso.dfs.DepthFirstSearch;
 
 public class DepthFirstSearchMain {
+    private DepthFirstSearchMain() {
+        throw new IllegalStateException("Utility class");
+    }
     public static void depthFirstSearchMain() {
         System.out.println("\n\n Depth First Search (BFS)");
         DepthFirstSearch graph = new DepthFirstSearch(6);

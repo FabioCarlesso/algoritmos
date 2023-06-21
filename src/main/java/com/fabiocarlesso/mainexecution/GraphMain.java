@@ -3,6 +3,9 @@ package com.fabiocarlesso.mainexecution;
 import com.fabiocarlesso.graph.Graph;
 
 public class GraphMain {
+    private GraphMain() {
+        throw new IllegalStateException("Utility class");
+    }
     public static void graphMain(){
         System.out.println("\n\nGraph");
         int numVertices = 5;

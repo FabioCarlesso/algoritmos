@@ -1,6 +1,9 @@
 package com.fabiocarlesso.mergesort;
 
 public class MergeSort {
+    private MergeSort() {
+        throw new IllegalStateException("Utility class");
+    }
     public static void mergeSort(int[] array, int left, int right) {
         if (left < right) {
             int middle = (left + right) / 2;

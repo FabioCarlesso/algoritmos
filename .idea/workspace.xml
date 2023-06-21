@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="fix: remove some code smells">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="fix: remove KMeans code smells">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/kmeans/KMeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/kmeans/KMeans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/KMeansMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/KMeansMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/insertionsort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/insertionsort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BinaryTreeInvertMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BinaryTreeInvertMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BinaryTreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BinaryTreeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BreadthFirstSearchMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BreadthFirstSearchMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/DecisionTreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/DecisionTreeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/DepthFirstSearchMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/DepthFirstSearchMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/DijkstraMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/DijkstraMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/GraphMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/GraphMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/InsertionSortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/InsertionSortMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/MergeSortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/MergeSortMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/QuickSortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/QuickSortMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mergesort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mergesort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/quicksort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/quicksort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/util/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687366417799</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="fix: remove KMeans code smells">
+      <created>1687367312756</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1687367312756</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +290,7 @@
     <MESSAGE value="feat: create Ford Fulkerson algorithm example" />
     <MESSAGE value="fix: refactor Apriori algorithm" />
     <MESSAGE value="fix: remove some code smells" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: remove some code smells" />
+    <MESSAGE value="fix: remove KMeans code smells" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: remove KMeans code smells" />
   </component>
 </project>

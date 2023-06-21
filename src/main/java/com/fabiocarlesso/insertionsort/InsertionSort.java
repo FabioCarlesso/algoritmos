@@ -1,6 +1,9 @@
 package com.fabiocarlesso.insertionsort;
 
 public class InsertionSort {
+    private InsertionSort() {
+        throw new IllegalStateException("Utility class");
+    }
     public static void insertionSort(int[] array) {
         int n = array.length;
 

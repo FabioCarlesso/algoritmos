@@ -3,6 +3,9 @@ package com.fabiocarlesso.mainexecution;
 import com.fabiocarlesso.bfs.BreadthFirstSearch;
 
 public class BreadthFirstSearchMain {
+    private BreadthFirstSearchMain() {
+        throw new IllegalStateException("Utility class");
+    }
     public static void breadthFirstSearchMain() {
         System.out.println("\n\n Breadth First Search (BFS)");
         BreadthFirstSearch graph = new BreadthFirstSearch(6);

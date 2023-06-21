@@ -4,6 +4,9 @@ import static com.fabiocarlesso.mergesort.MergeSort.mergeSort;
 import static com.fabiocarlesso.util.Utils.printArray;
 
 public class MergeSortMain {
+    private MergeSortMain() {
+        throw new IllegalStateException("Utility class");
+    }
     public static void mergeSortMain() {
         System.out.println("\n\n Merge Sort");
         int[] array = {7, 2, 1, 6, 8, 5, 3, 4};

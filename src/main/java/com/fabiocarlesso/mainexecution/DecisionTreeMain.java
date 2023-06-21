@@ -7,6 +7,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DecisionTreeMain {
+    private DecisionTreeMain() {
+        throw new IllegalStateException("Utility class");
+    }
     public static void decisionTreeMain(){
         System.out.println("\n\nDecision Tree");
         // Construir a árvore de decisão manualmente

@@ -4,6 +4,9 @@ import static com.fabiocarlesso.quicksort.QuickSort.quickSort;
 import static com.fabiocarlesso.util.Utils.printArray;
 
 public class QuickSortMain {
+    private QuickSortMain() {
+        throw new IllegalStateException("Utility class");
+    }
     public static void quickSortMain() {
         System.out.println("\n\n Quick Sort");
         int[] array = {7, 2, 1, 6, 8, 5, 3, 4};

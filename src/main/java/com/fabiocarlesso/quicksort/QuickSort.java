@@ -1,6 +1,9 @@
 package com.fabiocarlesso.quicksort;
 
 public class QuickSort {
+    private QuickSort() {
+        throw new IllegalStateException("Utility class");
+    }
     public static void quickSort(int[] array, int low, int high) {
         if (low < high) {
             int pivotIndex = partition(array, low, high);

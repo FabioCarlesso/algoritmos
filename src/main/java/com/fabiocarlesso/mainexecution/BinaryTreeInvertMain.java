@@ -3,6 +3,9 @@ package com.fabiocarlesso.mainexecution;
 import com.fabiocarlesso.binarytree.BinaryTree;
 
 public class BinaryTreeInvertMain {
+    private BinaryTreeInvertMain() {
+        throw new IllegalStateException("Utility class");
+    }
     public static void binaryTreeInvertMain(){
         System.out.println("\n\nBinaryTreeInvert");
         BinaryTree tree = new BinaryTree();
