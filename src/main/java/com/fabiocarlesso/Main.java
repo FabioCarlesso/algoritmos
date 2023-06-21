@@ -8,7 +8,7 @@ public class Main {
         //BinaryTreeInvertMain.binaryTreeInvertMain();
         //GraphMain.graphMain();
         //DecisionTreeMain.decisionTreeMain();
-        //AprioriMain.aprioriMain();
+        AprioriMain.aprioriMain();
         //KMeansMain.kMeansMain();
         //QuickSortMain.quickSortMain();
         //InsertionSortMain.insertionSortMain();
@@ -16,6 +16,6 @@ public class Main {
         //BreadthFirstSearchMain.breadthFirstSearchMain();
         //DepthFirstSearchMain.depthFirstSearchMain();
         //DijkstraMain.dijkstraMain();
-        FordFulkersonMain.fordFulkersonMain();
+        //FordFulkersonMain.fordFulkersonMain();
     }
 }

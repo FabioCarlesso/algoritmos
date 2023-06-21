@@ -6,6 +6,10 @@ import com.fabiocarlesso.apriori.AprioriItemSet;
 import java.util.*;
 
 public class AprioriMain {
+    private AprioriMain() {
+        throw new IllegalStateException("Utility class");
+    }
+
     public static void aprioriMain() {
         System.out.println("\n\n Apriori");
 

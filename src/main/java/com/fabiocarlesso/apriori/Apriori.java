@@ -3,8 +3,8 @@ package com.fabiocarlesso.apriori;
 import java.util.*;
 
 public class Apriori {
-    private List<Set<String>> transactions;
-    private double minSupport;
+    private final List<Set<String>> transactions;
+    private final double minSupport;
     Map<AprioriItemSet, Integer> frequentItemSets = new HashMap<>();
 
     public Apriori(List<Set<String>> transactions, double minSupport) {
@@ -13,17 +13,62 @@ public class Apriori {
     }
 
     public Map<AprioriItemSet, Integer> findFrequentItemSets() {
-        Map<AprioriItemSet, Integer> frequentItemSets = new HashMap<>();
+        Map<AprioriItemSet, Integer> localFrequentItemSets = new HashMap<>();
+        Map<String, Integer> itemCounts = countIndividualItems();
+        Set<AprioriItemSet> frequentItemSetsK = getFrequent1ItemSets(localFrequentItemSets, itemCounts);
+        while (!frequentItemSetsK.isEmpty()) {
+            Set<AprioriItemSet> candidateItemSets = getCandidateItemSets(frequentItemSetsK);
+            Map<AprioriItemSet, Integer> candidateSupportCounts = getCandidateSupportCounts(candidateItemSets);
+            frequentItemSetsK = getFrequentItemSetsK(localFrequentItemSets, candidateSupportCounts);
+        }
+        this.frequentItemSets = localFrequentItemSets;
+        return localFrequentItemSets;
+    }
 
-        // Count individual items
-        Map<String, Integer> itemCounts = new HashMap<>();
-        for (Set<String> transaction : transactions) {
-            for (String item : transaction) {
-                itemCounts.put(item, itemCounts.getOrDefault(item, 0) + 1);
+    private Set<AprioriItemSet> getFrequentItemSetsK(Map<AprioriItemSet, Integer> localFrequentItemSets, Map<AprioriItemSet, Integer> candidateSupportCounts) {
+        Set<AprioriItemSet> frequentItemSetsK;
+        frequentItemSetsK = new HashSet<>();
+        for (Map.Entry<AprioriItemSet, Integer> entry : candidateSupportCounts.entrySet()) {
+            AprioriItemSet itemSet = entry.getKey();
+            int support = entry.getValue();
+            double supportRatio = (double) support / transactions.size();
+            if (supportRatio >= minSupport) {
+                frequentItemSetsK.add(itemSet);
+                localFrequentItemSets.put(itemSet, support);
             }
         }
+        return frequentItemSetsK;
+    }
 
-        // Generate frequent 1-itemsets
+    private Map<AprioriItemSet, Integer> getCandidateSupportCounts(Set<AprioriItemSet> candidateItemSets) {
+        Map<AprioriItemSet, Integer> candidateSupportCounts = new HashMap<>();
+        for (Set<String> transaction : transactions) {
+            for (AprioriItemSet candidate : candidateItemSets) {
+                if (candidate.getItems().size() <= transaction.size() &&
+                        transaction.containsAll(candidate.getItems())) {
+                    candidateSupportCounts.put(candidate, candidateSupportCounts.getOrDefault(candidate, 0) + 1);
+                }
+            }
+        }
+        return candidateSupportCounts;
+    }
+
+    private static Set<AprioriItemSet> getCandidateItemSets(Set<AprioriItemSet> frequentItemSetsK) {
+        Set<AprioriItemSet> candidateItemSets = new HashSet<>();
+        for (AprioriItemSet itemSet1 : frequentItemSetsK) {
+            for (AprioriItemSet itemSet2 : frequentItemSetsK) {
+                if (!itemSet1.equals(itemSet2)) {
+                    AprioriItemSet mergedItemSet = itemSet1.merge(itemSet2);
+                    if (mergedItemSet.getItems().size() == itemSet1.getItems().size() + 1) {
+                        candidateItemSets.add(mergedItemSet);
+                    }
+                }
+            }
+        }
+        return candidateItemSets;
+    }
+
+    private Set<AprioriItemSet> getFrequent1ItemSets(Map<AprioriItemSet, Integer> localFrequentItemSets, Map<String, Integer> itemCounts) {
         Set<AprioriItemSet> frequent1ItemSets = new HashSet<>();
         for (Map.Entry<String, Integer> entry : itemCounts.entrySet()) {
             String item = entry.getKey();
@@ -33,48 +78,20 @@ public class Apriori {
                 Set<String> itemSet = new HashSet<>();
                 itemSet.add(item);
                 frequent1ItemSets.add(new AprioriItemSet(itemSet));
-                frequentItemSets.put(new AprioriItemSet(itemSet), support);
+                localFrequentItemSets.put(new AprioriItemSet(itemSet), support);
             }
         }
+        return frequent1ItemSets;
+    }
 
-        // Generate frequent k-itemsets
-        Set<AprioriItemSet> frequentItemSetsK = frequent1ItemSets;
-        while (!frequentItemSetsK.isEmpty()) {
-            Set<AprioriItemSet> candidateItemSets = new HashSet<>();
-            for (AprioriItemSet itemSet1 : frequentItemSetsK) {
-                for (AprioriItemSet itemSet2 : frequentItemSetsK) {
-                    if (!itemSet1.equals(itemSet2)) {
-                        AprioriItemSet mergedItemSet = itemSet1.merge(itemSet2);
-                        if (mergedItemSet.getItems().size() == itemSet1.getItems().size() + 1) {
-                            candidateItemSets.add(mergedItemSet);
-                        }
-                    }
-                }
-            }
-
-            Map<AprioriItemSet, Integer> candidateSupportCounts = new HashMap<>();
-            for (Set<String> transaction : transactions) {
-                for (AprioriItemSet candidate : candidateItemSets) {
-                    if (candidate.getItems().size() <= transaction.size() &&
-                            transaction.containsAll(candidate.getItems())) {
-                        candidateSupportCounts.put(candidate, candidateSupportCounts.getOrDefault(candidate, 0) + 1);
-                    }
-                }
-            }
-
-            frequentItemSetsK = new HashSet<>();
-            for (Map.Entry<AprioriItemSet, Integer> entry : candidateSupportCounts.entrySet()) {
-                AprioriItemSet itemSet = entry.getKey();
-                int support = entry.getValue();
-                double supportRatio = (double) support / transactions.size();
-                if (supportRatio >= minSupport) {
-                    frequentItemSetsK.add(itemSet);
-                    frequentItemSets.put(itemSet, support);
-                }
+    private Map<String, Integer> countIndividualItems() {
+        Map<String, Integer> itemCounts = new HashMap<>();
+        for (Set<String> transaction : transactions) {
+            for (String item : transaction) {
+                itemCounts.put(item, itemCounts.getOrDefault(item, 0) + 1);
             }
         }
-        this.frequentItemSets = frequentItemSets;
-        return frequentItemSets;
+        return itemCounts;
     }
 
     public void generateAssociationRules(Map<AprioriItemSet, Integer> frequentItemSets, double minConfidence) {
