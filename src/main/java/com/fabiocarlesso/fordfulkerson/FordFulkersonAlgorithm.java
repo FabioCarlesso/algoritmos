@@ -2,10 +2,6 @@ package com.fabiocarlesso.fordfulkerson;
 
 import com.fabiocarlesso.bfs.BreadthFirstSearch;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class FordFulkersonAlgorithm {
     private final int vertices;
 

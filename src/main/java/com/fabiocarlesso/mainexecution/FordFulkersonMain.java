@@ -3,6 +3,9 @@ package com.fabiocarlesso.mainexecution;
 import com.fabiocarlesso.fordfulkerson.FordFulkersonAlgorithm;
 
 public class FordFulkersonMain {
+    private FordFulkersonMain() {
+        throw new IllegalStateException("Utility class");
+    }
     public static void fordFulkersonMain() {
         System.out.println("\n\n Ford Fulkerson");
         int vertices = 6;
