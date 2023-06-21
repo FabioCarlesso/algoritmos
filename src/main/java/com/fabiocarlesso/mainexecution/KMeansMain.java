@@ -3,11 +3,16 @@ package com.fabiocarlesso.mainexecution;
 import com.fabiocarlesso.kmeans.KMeans;
 import com.fabiocarlesso.kmeans.Point;
 
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class KMeansMain {
-    public static void kMeansMain(){
+    private KMeansMain() {
+        throw new IllegalStateException("Utility class");
+    }
+
+    public static void kMeansMain() throws NoSuchAlgorithmException {
         System.out.println("\n\n KMeans");
         List<Point> points = new ArrayList<>();
         points.add(new Point(1.0, 1.0));

@@ -1,5 +1,7 @@
 package com.fabiocarlesso.kmeans;
 
+import java.security.NoSuchAlgorithmException;
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -8,7 +10,7 @@ public class KMeans {
     private List<Point> points;
     private List<Cluster> clusters;
 
-    public KMeans(List<Point> points, int k) {
+    public KMeans(List<Point> points, int k) throws NoSuchAlgorithmException {
         this.points = points;
         this.clusters = initializeClusters(k);
     }
@@ -25,9 +27,9 @@ public class KMeans {
         return points;
     }
 
-    private List<Cluster> initializeClusters(int k) {
+    private List<Cluster> initializeClusters(int k) throws NoSuchAlgorithmException {
         List<Cluster> initialClusters = new ArrayList<>();
-        Random random = new Random();
+        Random random = SecureRandom.getInstanceStrong();
 
         for (int i = 0; i < k; i++) {
             int randomIndex = random.nextInt(points.size());
@@ -68,14 +70,14 @@ public class KMeans {
         for (Cluster cluster : clusters) {
             double sumX = 0.0;
             double sumY = 0.0;
-            List<Point> points = cluster.getPoints();
+            List<Point> localPoints = cluster.getPoints();
 
-            for (Point point : points) {
+            for (Point point : localPoints) {
                 sumX += point.getX();
                 sumY += point.getY();
             }
 
-            int numPoints = points.size();
+            int numPoints = localPoints.size();
             double newCentroidX = sumX / numPoints;
             double newCentroidY = sumY / numPoints;
             Point newCentroid = new Point(newCentroidX, newCentroidY);
