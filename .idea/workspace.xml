@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat: create Depth First Search (DFS) algorithm example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/dijkstra/DijkstraAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/dijkstra/Node.java" afterDir="false" />
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat: create Ford Fulkerson algorithm example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/fordfulkerson/FordFulkersonAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/FordFulkersonMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/bfs/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/bfs/BreadthFirstSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687196060016</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat: create Dijkstra algorithm example">
+      <created>1687265271483</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1687265271483</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +247,8 @@
     <MESSAGE value="feat: create Breadth First Search (BFS) algorithm example" />
     <MESSAGE value="fix: refactor search class" />
     <MESSAGE value="feat: create Depth First Search (DFS) algorithm example" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create Depth First Search (DFS) algorithm example" />
+    <MESSAGE value="feat: create Dijkstra algorithm example" />
+    <MESSAGE value="feat: create Ford Fulkerson algorithm example" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create Ford Fulkerson algorithm example" />
   </component>
 </project>

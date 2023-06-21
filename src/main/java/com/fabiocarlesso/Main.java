@@ -15,6 +15,7 @@ public class Main {
         //MergeSortMain.mergeSortMain();
         //BreadthFirstSearchMain.breadthFirstSearchMain();
         //DepthFirstSearchMain.depthFirstSearchMain();
-        DijkstraMain.dijkstraMain();
+        //DijkstraMain.dijkstraMain();
+        FordFulkersonMain.fordFulkersonMain();
     }
 }
