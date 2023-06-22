@@ -19,5 +19,6 @@ public class Main {
         DepthFirstSearchMain.depthFirstSearchMain();
         DijkstraMain.dijkstraMain();
         FordFulkersonMain.fordFulkersonMain();
+        ArraysHashingMain.arraysHashingMain();
     }
 }
