@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat: create Arrays/Hashing class and add method to verify array int contains duplicate">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat: Add method to verify if is an anagram">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
@@ -39,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Shelf.Project.Settings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RunManager">
@@ -254,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687442557038</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="feat: Add method to verify if is an anagram">
+      <option name="closed" value="true" />
+      <created>1687443407285</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1687443407285</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +277,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: add some files to gitignore" />
     <MESSAGE value="feat: create a simple binary tree" />
     <MESSAGE value="feat: add invert binary tree" />
     <MESSAGE value="feat: create a simple graph" />
@@ -294,6 +301,7 @@
     <MESSAGE value="fix: remove KMeans code smells" />
     <MESSAGE value="fix: utility classes should not have public constructors" />
     <MESSAGE value="feat: create Arrays/Hashing class and add method to verify array int contains duplicate" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create Arrays/Hashing class and add method to verify array int contains duplicate" />
+    <MESSAGE value="feat: Add method to verify if is an anagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add method to verify if is an anagram" />
   </component>
 </project>

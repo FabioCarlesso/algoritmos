@@ -12,6 +12,7 @@ public class ArraysHashingMain {
         System.out.println("\n\nArrays Hashing");
         arrayIntContainsDuplicateMain();
         isAnagramMain();
+        getArrayIntConcatenationMain();
     }
 
     private static void isAnagramMain() {
@@ -33,10 +34,20 @@ public class ArraysHashingMain {
         System.out.println("\n\nArray Int Contains Duplicate");
         int[] numbers = {1, 2, 3, 4, 5};
         System.out.println("Array: " + Arrays.toString(numbers));
-        System.out.println("No duplicates: " + ArraysHashing.arrayIntContainsDuplicate(numbers));
+        System.out.println("No duplicates: " + ArraysHashing.containsArrayIntDuplicate(numbers));
 
         int[] numbersWithDuplicate = {1, 2, 3, 2, 4, 5};
         System.out.println("\nArray: " + Arrays.toString(numbersWithDuplicate));
-        System.out.println("Contains Duplicate: " + ArraysHashing.arrayIntContainsDuplicate(numbersWithDuplicate));
+        System.out.println("Contains Duplicate: " + ArraysHashing.containsArrayIntDuplicate(numbersWithDuplicate));
+    }
+
+    private static void getArrayIntConcatenationMain() {
+        System.out.println("\n\nArray Int Concatenation");
+        int[] nums = {1, 2, 3};
+        int[] concatenated = ArraysHashing.getArrayIntConcatenation(nums);
+
+        System.out.println("Array: " + Arrays.toString(nums));
+        System.out.println("Concatenation: " + Arrays.toString(concatenated));
+
     }
 }
