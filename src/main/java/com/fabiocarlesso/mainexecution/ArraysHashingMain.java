@@ -16,6 +16,7 @@ public class ArraysHashingMain {
         isAnagramMain();
         getArrayIntConcatenationMain();
         replaceElementsOnRightSideFromArrayIntMain();
+        isSubsequenceMain();
     }
 
     private static void isAnagramMain() {
@@ -65,6 +66,20 @@ public class ArraysHashingMain {
         System.out.println("\n" + ARRAY_TEXT + Arrays.toString(arrTest));
         int[] replacedError = ArraysHashing.replaceElementsOnRightSideFromArrayInt(arrTest);
         System.out.println("Replace Elements error: " + Arrays.toString(replacedError));
+    }
+
+    private static void isSubsequenceMain() {
+        System.out.println("\n\nIs Subsequence");
+        String subSequence = "ace";
+        String sequence = "abcde";
+        System.out.println("Subsequence: " + subSequence);
+        System.out.println("Sequence: " + sequence);
+        System.out.println("Is Subsequence: " + ArraysHashing.isSubsequence(subSequence, sequence));
+
+        String subSequenceFalse = "aec";
+        System.out.println("Subsequence: " + subSequenceFalse);
+        System.out.println("Sequence: " + sequence);
+        System.out.println("Is Subsequence: " + ArraysHashing.isSubsequence(subSequenceFalse, sequence));
     }
 
 }
