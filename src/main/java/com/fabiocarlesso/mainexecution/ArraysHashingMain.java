@@ -17,6 +17,7 @@ public class ArraysHashingMain {
         getArrayIntConcatenationMain();
         replaceElementsOnRightSideFromArrayIntMain();
         isSubsequenceMain();
+        lengthOfLastWordMain();
     }
 
     private static void isAnagramMain() {
@@ -80,6 +81,19 @@ public class ArraysHashingMain {
         System.out.println("Subsequence: " + subSequenceFalse);
         System.out.println("Sequence: " + sequence);
         System.out.println("Is Subsequence: " + ArraysHashing.isSubsequence(subSequenceFalse, sequence));
+    }
+
+    private static void lengthOfLastWordMain() {
+        System.out.println("\n\nLength Of Last Word");
+        String phrase = "Hello World";
+        String phrase2 = "   Java Programming   ";
+        String phrase3 = "   fly me   to   the moon  ";
+        System.out.println("Phrase 1: " + phrase);
+        System.out.println("Length Of Last Word 1: " + ArraysHashing.lengthOfLastWord(phrase));
+        System.out.println("Phrase 2: " + phrase2);
+        System.out.println("Length Of Last Word 2: " + ArraysHashing.lengthOfLastWord(phrase2));
+        System.out.println("Phrase 3: " + phrase3);
+        System.out.println("Length Of Last Word 3: " + ArraysHashing.lengthOfLastWord(phrase3));
     }
 
 }
