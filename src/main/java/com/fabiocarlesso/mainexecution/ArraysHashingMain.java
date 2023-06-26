@@ -18,6 +18,7 @@ public class ArraysHashingMain {
         replaceElementsOnRightSideFromArrayIntMain();
         isSubsequenceMain();
         lengthOfLastWordMain();
+        twoSumArrayIntMain();
     }
 
     private static void isAnagramMain() {
@@ -94,6 +95,29 @@ public class ArraysHashingMain {
         System.out.println("Length Of Last Word 2: " + ArraysHashing.lengthOfLastWord(phrase2));
         System.out.println("Phrase 3: " + phrase3);
         System.out.println("Length Of Last Word 3: " + ArraysHashing.lengthOfLastWord(phrase3));
+    }
+
+    private static void twoSumArrayIntMain() {
+        System.out.println("\n\nTwo Sum Array Int");
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
+        int[] result = ArraysHashing.twoSumArrayInt(nums, target);
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println("Target 1: " + target);
+        System.out.println("Indices 1: " + result[0] + ", " + result[1]);
+
+        int[] nums2 = {3,2,4};
+        int[] nums3 = {3,3};
+        int target2 = 6;
+        int[] result2 = ArraysHashing.twoSumArrayInt(nums2, target2);
+        System.out.println("\n"+ARRAY_TEXT + Arrays.toString(nums2));
+        System.out.println("Target 2: " + target2);
+        System.out.println("Indices 2: " + result2[0] + ", " + result2[1]);
+        int[] result3 = ArraysHashing.twoSumArrayInt(nums3, target2);
+        System.out.println("\n"+ARRAY_TEXT + Arrays.toString(nums3));
+        System.out.println("Target 3: " + target2);
+        System.out.println("Indices 3: " + result3[0] + ", " + result3[1]);
+
     }
 
 }
