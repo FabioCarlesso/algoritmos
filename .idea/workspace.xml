@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat: Add twoSum method">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat: Add Group Anagrams method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
@@ -305,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687811911903</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="feat: Add longest Common Prefix method">
+      <option name="closed" value="true" />
+      <created>1687954925607</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1687954925607</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,8 +328,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: create a apriori algorithm exemple" />
-    <MESSAGE value="feat: create a KMeans algorithm exemple" />
     <MESSAGE value="feat: create a Quick Sort algorithm example" />
     <MESSAGE value="fix: Quick Sort main" />
     <MESSAGE value="feat: create Insertion Sort algorithm example" />
@@ -345,6 +351,8 @@
     <MESSAGE value="feat: Add subsequence method" />
     <MESSAGE value="feat: Add Length Of Last Word method" />
     <MESSAGE value="feat: Add twoSum method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add twoSum method" />
+    <MESSAGE value="feat: Add longest Common Prefix method" />
+    <MESSAGE value="feat: Add Group Anagrams method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add Group Anagrams method" />
   </component>
 </project>

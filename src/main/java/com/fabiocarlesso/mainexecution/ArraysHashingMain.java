@@ -20,6 +20,7 @@ public class ArraysHashingMain {
         lengthOfLastWordMain();
         twoSumArrayIntMain();
         longestCommonPrefixMain();
+        groupAnagramsMain();
     }
 
     private static void isAnagramMain() {
@@ -128,6 +129,16 @@ public class ArraysHashingMain {
         String[] strs2 = {"dog","racecar","car"};
         System.out.println(ARRAY_TEXT + Arrays.toString(strs2));
         System.out.println("Longest Common Prefix case 2: " + ArraysHashing.longestCommonPrefix(strs2));
+    }
+
+    private static void groupAnagramsMain() {
+        System.out.println("\n\nGroup Anagrams");
+        String[] strs = {"eat","tea","tan","ate","nat","bat"};
+        System.out.println(ARRAY_TEXT + Arrays.toString(strs));
+        System.out.println("Group Anagrams case 1: " + ArraysHashing.groupAnagrams(strs));
+        String[] strs2 = {""};
+        System.out.println(ARRAY_TEXT + Arrays.toString(strs2));
+        System.out.println("Group Anagrams case 2: " + ArraysHashing.groupAnagrams(strs2));
     }
 
 }
