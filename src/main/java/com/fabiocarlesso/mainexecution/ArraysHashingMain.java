@@ -19,6 +19,7 @@ public class ArraysHashingMain {
         isSubsequenceMain();
         lengthOfLastWordMain();
         twoSumArrayIntMain();
+        longestCommonPrefixMain();
     }
 
     private static void isAnagramMain() {
@@ -117,7 +118,16 @@ public class ArraysHashingMain {
         System.out.println("\n"+ARRAY_TEXT + Arrays.toString(nums3));
         System.out.println("Target 3: " + target2);
         System.out.println("Indices 3: " + result3[0] + ", " + result3[1]);
+    }
 
+    private static void longestCommonPrefixMain() {
+        System.out.println("\n\nLongest Common Prefix");
+        String[] strs = {"flower","flow","flight"};
+        System.out.println(ARRAY_TEXT + Arrays.toString(strs));
+        System.out.println("Longest Common Prefix case 1: " + ArraysHashing.longestCommonPrefix(strs));
+        String[] strs2 = {"dog","racecar","car"};
+        System.out.println(ARRAY_TEXT + Arrays.toString(strs2));
+        System.out.println("Longest Common Prefix case 2: " + ArraysHashing.longestCommonPrefix(strs2));
     }
 
 }
