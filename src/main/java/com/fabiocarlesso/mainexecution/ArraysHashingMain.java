@@ -21,6 +21,7 @@ public class ArraysHashingMain {
         twoSumArrayIntMain();
         longestCommonPrefixMain();
         groupAnagramsMain();
+        sortArrayMain();
     }
 
     private static void isAnagramMain() {
@@ -139,6 +140,19 @@ public class ArraysHashingMain {
         String[] strs2 = {""};
         System.out.println(ARRAY_TEXT + Arrays.toString(strs2));
         System.out.println("Group Anagrams case 2: " + ArraysHashing.groupAnagrams(strs2));
+    }
+
+    private static void sortArrayMain() {
+        System.out.println("\n\nSort Array");
+        int[] nums = {5,2,3,1};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        ArraysHashing.sortArray(nums);
+        System.out.println("Result case 1: " + Arrays.toString(nums));
+
+        int[] nums2 = {5,1,1,2,0,0};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
+        ArraysHashing.sortArray(nums2);
+        System.out.println("Result case 2: " + Arrays.toString(nums2));
     }
 
 }

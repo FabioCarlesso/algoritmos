@@ -2,6 +2,8 @@ package com.fabiocarlesso.arrayshashing;
 
 import java.util.*;
 
+import static com.fabiocarlesso.mergesort.MergeSort.mergeSort;
+
 public class ArraysHashing {
     private ArraysHashing() {
         throw new IllegalStateException("Utility class");
@@ -117,6 +119,10 @@ public class ArraysHashing {
         }
         res.addAll(map.values());
         return res;
+    }
+
+    public static void sortArray(int[] nums) {
+        mergeSort(nums, 0, nums.length-1);
     }
 
 }
