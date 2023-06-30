@@ -22,6 +22,7 @@ public class ArraysHashingMain {
         longestCommonPrefixMain();
         groupAnagramsMain();
         sortArrayMain();
+        generatePascalTriangleMain();
     }
 
     private static void isAnagramMain() {
@@ -153,6 +154,17 @@ public class ArraysHashingMain {
         System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
         ArraysHashing.sortArray(nums2);
         System.out.println("Result case 2: " + Arrays.toString(nums2));
+    }
+
+    private static void generatePascalTriangleMain() {
+        System.out.println("\n\nGenerate Pascal Triangle");
+        int nums = 5;
+        System.out.println("Rows: "+nums);
+        System.out.println("Result case 1: " + ArraysHashing.generatePascalTriangle(nums));
+
+        nums = 1;
+        System.out.println("Rows: "+nums);
+        System.out.println("Result case 2: " + ArraysHashing.generatePascalTriangle(nums));
     }
 
 }
