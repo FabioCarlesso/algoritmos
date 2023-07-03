@@ -4,8 +4,12 @@ import com.fabiocarlesso.arrayshashing.ArraysHashing;
 
 import java.util.Arrays;
 
+import static com.fabiocarlesso.util.Utils.*;
+
 public class ArraysHashingMain {
     private static final String ARRAY_TEXT = "Array: ";
+    public static final String RESULT_CASE_1 = "Result case 1: ";
+    public static final String RESULT_CASE_2 = "Result case 2: ";
 
     private ArraysHashingMain() {
         throw new IllegalStateException("Utility class");
@@ -23,6 +27,7 @@ public class ArraysHashingMain {
         groupAnagramsMain();
         sortArrayMain();
         generatePascalTriangleMain();
+        removeElementMain();
     }
 
     private static void isAnagramMain() {
@@ -148,23 +153,40 @@ public class ArraysHashingMain {
         int[] nums = {5,2,3,1};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         ArraysHashing.sortArray(nums);
-        System.out.println("Result case 1: " + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_1 + Arrays.toString(nums));
 
         int[] nums2 = {5,1,1,2,0,0};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
         ArraysHashing.sortArray(nums2);
-        System.out.println("Result case 2: " + Arrays.toString(nums2));
+        System.out.println(RESULT_CASE_2 + Arrays.toString(nums2));
     }
 
     private static void generatePascalTriangleMain() {
         System.out.println("\n\nGenerate Pascal Triangle");
         int nums = 5;
         System.out.println("Rows: "+nums);
-        System.out.println("Result case 1: " + ArraysHashing.generatePascalTriangle(nums));
+        System.out.println(RESULT_CASE_1 + ArraysHashing.generatePascalTriangle(nums));
 
         nums = 1;
         System.out.println("Rows: "+nums);
-        System.out.println("Result case 2: " + ArraysHashing.generatePascalTriangle(nums));
+        System.out.println(RESULT_CASE_2 + ArraysHashing.generatePascalTriangle(nums));
+    }
+
+    private static void removeElementMain() {
+        System.out.println("\n\nRemove Element");
+        int[] nums = {3,2,2,3};
+        int removeElement = 3;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println("Remove element: " + removeElement);
+        int target = ArraysHashing.removeElement(nums, removeElement);
+        System.out.println(RESULT_CASE_1 + intArrayToStringTarget(nums, target));
+
+        int[] nums2 = {0,1,2,2,3,0,4,2};
+        removeElement = 2;
+        System.out.println("\n"+ARRAY_TEXT + Arrays.toString(nums2));
+        System.out.println("Remove element: " + removeElement);
+        target = ArraysHashing.removeElement(nums2, removeElement);
+        System.out.println(RESULT_CASE_2 + intArrayToStringTarget(nums2, target));
     }
 
 }
