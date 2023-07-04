@@ -1,10 +1,9 @@
 package com.fabiocarlesso.mainexecution;
 
 import com.fabiocarlesso.arrayshashing.ArraysHashing;
+import com.fabiocarlesso.util.Utils;
 
 import java.util.Arrays;
-
-import static com.fabiocarlesso.util.Utils.*;
 
 public class ArraysHashingMain {
     private static final String ARRAY_TEXT = "Array: ";
@@ -28,6 +27,7 @@ public class ArraysHashingMain {
         sortArrayMain();
         generatePascalTriangleMain();
         removeElementMain();
+        uniqueEmailAddressesMain();
     }
 
     private static void isAnagramMain() {
@@ -179,14 +179,33 @@ public class ArraysHashingMain {
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println("Remove element: " + removeElement);
         int target = ArraysHashing.removeElement(nums, removeElement);
-        System.out.println(RESULT_CASE_1 + intArrayToStringTarget(nums, target));
+        System.out.println(RESULT_CASE_1 + Utils.intArrayToStringTarget(nums, target));
 
         int[] nums2 = {0,1,2,2,3,0,4,2};
         removeElement = 2;
         System.out.println("\n"+ARRAY_TEXT + Arrays.toString(nums2));
         System.out.println("Remove element: " + removeElement);
         target = ArraysHashing.removeElement(nums2, removeElement);
-        System.out.println(RESULT_CASE_2 + intArrayToStringTarget(nums2, target));
+        System.out.println(RESULT_CASE_2 + Utils.intArrayToStringTarget(nums2, target));
+    }
+
+    private static void uniqueEmailAddressesMain() {
+        System.out.println("\n\nNumber of Unique Email Addresses");
+        String[] emails = {
+                "test.email+alex@leetcode.com",
+                "test.e.mail+bob.cathy@leetcode.com",
+                "testemail+david@lee.tcode.com"
+        };
+        System.out.println(ARRAY_TEXT + Arrays.toString(emails));
+        System.out.println(RESULT_CASE_1 + ArraysHashing.numUniqueEmails(emails));
+
+        String[] emailsCase2 = {
+                "a@leetcode.com",
+                "b@leetcode.com",
+                "c@leetcode.com"
+        };
+        System.out.println(ARRAY_TEXT + Arrays.toString(emailsCase2));
+        System.out.println(RESULT_CASE_2 + ArraysHashing.numUniqueEmails(emailsCase2));
     }
 
 }
