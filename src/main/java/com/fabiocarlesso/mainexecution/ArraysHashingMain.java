@@ -9,6 +9,7 @@ public class ArraysHashingMain {
     private static final String ARRAY_TEXT = "Array: ";
     public static final String RESULT_CASE_1 = "Result case 1: ";
     public static final String RESULT_CASE_2 = "Result case 2: ";
+    public static final String RESULT_CASE_3 = "Result case 3: ";
 
     private ArraysHashingMain() {
         throw new IllegalStateException("Utility class");
@@ -28,6 +29,7 @@ public class ArraysHashingMain {
         generatePascalTriangleMain();
         removeElementMain();
         uniqueEmailAddressesMain();
+        isIsomorphicMain();
     }
 
     private static void isAnagramMain() {
@@ -206,6 +208,26 @@ public class ArraysHashingMain {
         };
         System.out.println(ARRAY_TEXT + Arrays.toString(emailsCase2));
         System.out.println(RESULT_CASE_2 + ArraysHashing.numUniqueEmails(emailsCase2));
+    }
+
+    private static void isIsomorphicMain() {
+        System.out.println("\n\nIs Isomorphic");
+        String firstWord = "egg";
+        String secondWord = "add";
+        String wordsTxt = "Words: ";
+        String andTxt = " and ";
+        System.out.println(wordsTxt + firstWord + andTxt + secondWord);
+        System.out.println(RESULT_CASE_1 + ArraysHashing.isIsomorphic(firstWord, secondWord));
+
+        firstWord = "foo";
+        secondWord = "bar";
+        System.out.println(wordsTxt + firstWord + andTxt + secondWord);
+        System.out.println(RESULT_CASE_2 + ArraysHashing.isIsomorphic(firstWord, secondWord));
+
+        firstWord = "paper";
+        secondWord = "title";
+        System.out.println(wordsTxt + firstWord + andTxt + secondWord);
+        System.out.println(RESULT_CASE_3 + ArraysHashing.isIsomorphic(firstWord, secondWord));
     }
 
 }
