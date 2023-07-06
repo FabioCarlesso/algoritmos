@@ -30,6 +30,7 @@ public class ArraysHashingMain {
         removeElementMain();
         uniqueEmailAddressesMain();
         isIsomorphicMain();
+        canPlaceFlowersMain();
     }
 
     private static void isAnagramMain() {
@@ -228,6 +229,18 @@ public class ArraysHashingMain {
         secondWord = "title";
         System.out.println(wordsTxt + firstWord + andTxt + secondWord);
         System.out.println(RESULT_CASE_3 + ArraysHashing.isIsomorphic(firstWord, secondWord));
+    }
+
+    private static void canPlaceFlowersMain() {
+        System.out.println("\n\nCan Place Flowers");
+        int[] flowerBed = {1,0,0,0,1};
+        System.out.println(ARRAY_TEXT + Arrays.toString(flowerBed));
+        int newFlowersCanBePlanted = 1;
+        System.out.println("New Flowers Can Be Planted: "+newFlowersCanBePlanted);
+        System.out.println(RESULT_CASE_1 + ArraysHashing.canPlaceFlowers(flowerBed, newFlowersCanBePlanted));
+        newFlowersCanBePlanted = 2;
+        System.out.println("New Flowers Can Be Planted: "+newFlowersCanBePlanted);
+        System.out.println(RESULT_CASE_1 + ArraysHashing.canPlaceFlowers(flowerBed, newFlowersCanBePlanted));
     }
 
 }
