@@ -31,6 +31,7 @@ public class ArraysHashingMain {
         uniqueEmailAddressesMain();
         isIsomorphicMain();
         canPlaceFlowersMain();
+        majorityElementMain();
     }
 
     private static void isAnagramMain() {
@@ -240,7 +241,17 @@ public class ArraysHashingMain {
         System.out.println(RESULT_CASE_1 + ArraysHashing.canPlaceFlowers(flowerBed, newFlowersCanBePlanted));
         newFlowersCanBePlanted = 2;
         System.out.println("New Flowers Can Be Planted: "+newFlowersCanBePlanted);
-        System.out.println(RESULT_CASE_1 + ArraysHashing.canPlaceFlowers(flowerBed, newFlowersCanBePlanted));
+        System.out.println(RESULT_CASE_2 + ArraysHashing.canPlaceFlowers(flowerBed, newFlowersCanBePlanted));
+    }
+
+    private static void majorityElementMain() {
+        System.out.println("\n\nMajority Element");
+        int[] nums = {3,2,3};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_1 + ArraysHashing.majorityElement(nums));
+        int[] nums2 = {2,2,1,1,1,2,2};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
+        System.out.println(RESULT_CASE_2 + ArraysHashing.majorityElement(nums2));
     }
 
 }
