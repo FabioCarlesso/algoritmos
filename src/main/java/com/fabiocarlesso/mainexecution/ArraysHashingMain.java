@@ -32,6 +32,7 @@ public class ArraysHashingMain {
         isIsomorphicMain();
         canPlaceFlowersMain();
         majorityElementMain();
+        nextGreaterElementMain();
     }
 
     private static void isAnagramMain() {
@@ -252,6 +253,21 @@ public class ArraysHashingMain {
         int[] nums2 = {2,2,1,1,1,2,2};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
         System.out.println(RESULT_CASE_2 + ArraysHashing.majorityElement(nums2));
+    }
+
+    private static void nextGreaterElementMain() {
+        System.out.println("\n\nNext Greater Element");
+        int[] nums1 = {4,1,2};
+        int[] nums2 = {1,3,4,2};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums1));
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
+        System.out.println(RESULT_CASE_1 + Arrays.toString(ArraysHashing.nextGreaterElement(nums1, nums2)));
+
+        nums1 = new int[]{2,4};
+        nums2 = new int[]{1,2,3,4};
+        System.out.println("\n"+ARRAY_TEXT + Arrays.toString(nums1));
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
+        System.out.println(RESULT_CASE_2 + Arrays.toString(ArraysHashing.nextGreaterElement(nums1, nums2)));
     }
 
 }
