@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat: Add Majority Element method">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHasshing): Add Next Greater Element I method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
@@ -385,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688734005779</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="feat(ArraysHasshing): Add Next Greater Element I method">
+      <option name="closed" value="true" />
+      <created>1688850847668</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1688850847668</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: refactor search class" />
     <MESSAGE value="feat: create Depth First Search (DFS) algorithm example" />
     <MESSAGE value="feat: create Dijkstra algorithm example" />
     <MESSAGE value="feat: create Ford Fulkerson algorithm example" />
@@ -425,6 +432,7 @@
     <MESSAGE value="feat: Add Isomorphic Strings method" />
     <MESSAGE value="feat: Add Can Place Flowers method" />
     <MESSAGE value="feat: Add Majority Element method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add Majority Element method" />
+    <MESSAGE value="feat(ArraysHasshing): Add Next Greater Element I method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHasshing): Add Next Greater Element I method" />
   </component>
 </project>

@@ -33,6 +33,7 @@ public class ArraysHashingMain {
         canPlaceFlowersMain();
         majorityElementMain();
         nextGreaterElementMain();
+        pivotIndexMain();
     }
 
     private static void isAnagramMain() {
@@ -268,6 +269,21 @@ public class ArraysHashingMain {
         System.out.println("\n"+ARRAY_TEXT + Arrays.toString(nums1));
         System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
         System.out.println(RESULT_CASE_2 + Arrays.toString(ArraysHashing.nextGreaterElement(nums1, nums2)));
+    }
+
+    private static void pivotIndexMain() {
+        System.out.println("\n\nPivot Index");
+        int[] nums = {1,7,3,6,5,6};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_1 + ArraysHashing.pivotIndex(nums));
+
+        nums = new int[]{1,2,3};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_2 + ArraysHashing.pivotIndex(nums));
+
+        nums = new int[]{2,1,-1};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_3 + ArraysHashing.pivotIndex(nums));
     }
 
 }
