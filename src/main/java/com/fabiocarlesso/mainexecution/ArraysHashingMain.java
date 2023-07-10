@@ -1,6 +1,7 @@
 package com.fabiocarlesso.mainexecution;
 
 import com.fabiocarlesso.arrayshashing.ArraysHashing;
+import com.fabiocarlesso.arrayshashing.NumArray;
 import com.fabiocarlesso.util.Utils;
 
 import java.util.Arrays;
@@ -34,6 +35,7 @@ public class ArraysHashingMain {
         majorityElementMain();
         nextGreaterElementMain();
         pivotIndexMain();
+        rangeSumQueryMain();
     }
 
     private static void isAnagramMain() {
@@ -284,6 +286,16 @@ public class ArraysHashingMain {
         nums = new int[]{2,1,-1};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println(RESULT_CASE_3 + ArraysHashing.pivotIndex(nums));
+    }
+
+    private static void rangeSumQueryMain() {
+        System.out.println("\n\nRange Sum Query - Immutable");
+        int[] nums = {-2, 0, 3, -5, 2, -1};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        NumArray numArray = new NumArray(nums);
+        System.out.println(RESULT_CASE_1 + numArray.sumRange(0,2));
+        System.out.println(RESULT_CASE_2 + numArray.sumRange(2,5));
+        System.out.println(RESULT_CASE_3 + numArray.sumRange(0,5));
     }
 
 }
