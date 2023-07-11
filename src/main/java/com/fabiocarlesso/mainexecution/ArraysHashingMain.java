@@ -36,6 +36,7 @@ public class ArraysHashingMain {
         nextGreaterElementMain();
         pivotIndexMain();
         rangeSumQueryMain();
+        findDisappearedNumbersMain();
     }
 
     private static void isAnagramMain() {
@@ -296,6 +297,16 @@ public class ArraysHashingMain {
         System.out.println(RESULT_CASE_1 + numArray.sumRange(0,2));
         System.out.println(RESULT_CASE_2 + numArray.sumRange(2,5));
         System.out.println(RESULT_CASE_3 + numArray.sumRange(0,5));
+    }
+
+    private static void findDisappearedNumbersMain() {
+        System.out.println("\n\nFind All Numbers Disappeared in an Array");
+        int[] nums = {4,3,2,7,8,2,3,1};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_1 + ArraysHashing.findDisappearedNumbers(nums));
+        nums = new int[]{1,1};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_2 + ArraysHashing.findDisappearedNumbers(nums));
     }
 
 }
