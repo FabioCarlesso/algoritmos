@@ -37,6 +37,7 @@ public class ArraysHashingMain {
         pivotIndexMain();
         rangeSumQueryMain();
         findDisappearedNumbersMain();
+        maxNumberOfBalloonsMain();
     }
 
     private static void isAnagramMain() {
@@ -307,6 +308,22 @@ public class ArraysHashingMain {
         nums = new int[]{1,1};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println(RESULT_CASE_2 + ArraysHashing.findDisappearedNumbers(nums));
+    }
+
+    private static void maxNumberOfBalloonsMain() {
+        System.out.println("\n\nMaximum Number of Balloons");
+        String firstWord = "nlaebolko";
+        System.out.println(ARRAY_TEXT + firstWord);
+        System.out.println(RESULT_CASE_1 + ArraysHashing.maxNumberOfBalloons(firstWord, "balloon"));
+        String secondWord = "loonbalxballpoon";
+        System.out.println(ARRAY_TEXT + secondWord);
+        System.out.println(RESULT_CASE_2 + ArraysHashing.maxNumberOfBalloons(secondWord, "balloon"));
+        String thirdWord = "leetcode";
+        System.out.println(ARRAY_TEXT + thirdWord);
+        System.out.println(RESULT_CASE_3 + ArraysHashing.maxNumberOfBalloons(thirdWord, "balloon"));
+        String fourthWord = "tesdsadsatdasdsasdtesdassdadstfdaadsdasdastest";
+        System.out.println(ARRAY_TEXT + fourthWord);
+        System.out.println(RESULT_CASE_3 + ArraysHashing.maxNumberOfBalloons(fourthWord, "test"));
     }
 
 }

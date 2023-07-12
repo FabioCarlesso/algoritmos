@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Range Sum Query - Immutable method">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Find All Numbers Disappeared in an Array method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
@@ -409,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689001465506</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="feat(ArraysHashing): Add Find All Numbers Disappeared in an Array method">
+      <option name="closed" value="true" />
+      <created>1689097444480</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1689097444483</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +432,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: create Ford Fulkerson algorithm example" />
     <MESSAGE value="fix: refactor Apriori algorithm" />
     <MESSAGE value="fix: remove some code smells" />
     <MESSAGE value="fix: remove KMeans code smells" />
@@ -449,6 +456,18 @@
     <MESSAGE value="feat(ArraysHasshing): Add Next Greater Element I method" />
     <MESSAGE value="feat(ArraysHasshing): Add Pivot Index method" />
     <MESSAGE value="feat(ArraysHashing): Add Range Sum Query - Immutable method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Range Sum Query - Immutable method" />
+    <MESSAGE value="feat(ArraysHashing): Add Find All Numbers Disappeared in an Array method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Find All Numbers Disappeared in an Array method" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java</url>
+          <line>275</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
