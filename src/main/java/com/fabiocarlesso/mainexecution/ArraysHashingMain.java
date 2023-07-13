@@ -38,6 +38,7 @@ public class ArraysHashingMain {
         rangeSumQueryMain();
         findDisappearedNumbersMain();
         maxNumberOfBalloonsMain();
+        wordPatternMain();
     }
 
     private static void isAnagramMain() {
@@ -314,16 +315,36 @@ public class ArraysHashingMain {
         System.out.println("\n\nMaximum Number of Balloons");
         String firstWord = "nlaebolko";
         System.out.println(ARRAY_TEXT + firstWord);
-        System.out.println(RESULT_CASE_1 + ArraysHashing.maxNumberOfBalloons(firstWord, "balloon"));
+        String balloon = "balloon";
+        System.out.println(RESULT_CASE_1 + ArraysHashing.maxNumberOfBalloons(firstWord, balloon));
         String secondWord = "loonbalxballpoon";
         System.out.println(ARRAY_TEXT + secondWord);
-        System.out.println(RESULT_CASE_2 + ArraysHashing.maxNumberOfBalloons(secondWord, "balloon"));
+        System.out.println(RESULT_CASE_2 + ArraysHashing.maxNumberOfBalloons(secondWord, balloon));
         String thirdWord = "leetcode";
         System.out.println(ARRAY_TEXT + thirdWord);
-        System.out.println(RESULT_CASE_3 + ArraysHashing.maxNumberOfBalloons(thirdWord, "balloon"));
+        System.out.println(RESULT_CASE_3 + ArraysHashing.maxNumberOfBalloons(thirdWord, balloon));
         String fourthWord = "tesdsadsatdasdsasdtesdassdadstfdaadsdasdastest";
         System.out.println(ARRAY_TEXT + fourthWord);
         System.out.println(RESULT_CASE_3 + ArraysHashing.maxNumberOfBalloons(fourthWord, "test"));
+    }
+
+    private static void wordPatternMain() {
+        System.out.println("\n\nWord Pattern");
+        String pattern = "abba";
+        String words = "dog cat cat dog";
+        System.out.println(ARRAY_TEXT + words);
+        String patternText = "Pattern: ";
+        System.out.println(patternText + pattern);
+        System.out.println(RESULT_CASE_1 + ArraysHashing.wordPattern(pattern, words));
+        words = "dog cat cat fish";
+        System.out.println(ARRAY_TEXT + words);
+        System.out.println(patternText + pattern);
+        System.out.println(RESULT_CASE_2 + ArraysHashing.wordPattern(pattern, words));
+        pattern = "aaaa";
+        words = "dog cat cat dog";
+        System.out.println(ARRAY_TEXT + words);
+        System.out.println(patternText + pattern);
+        System.out.println(RESULT_CASE_3 + ArraysHashing.wordPattern(pattern, words));
     }
 
 }
