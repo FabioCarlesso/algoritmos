@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Maximum Number of Balloons method">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Top K Frequent Elements method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
@@ -425,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689167175345</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="feat(ArraysHashing): Add Word Pattern method">
+      <option name="closed" value="true" />
+      <created>1689268314542</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1689268314542</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,8 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: remove some code smells" />
-    <MESSAGE value="fix: remove KMeans code smells" />
     <MESSAGE value="fix: utility classes should not have public constructors" />
     <MESSAGE value="feat: create Arrays/Hashing class and add method to verify array int contains duplicate" />
     <MESSAGE value="feat: Add method to verify if is an anagram" />
@@ -465,6 +471,8 @@
     <MESSAGE value="feat(ArraysHashing): Add Range Sum Query - Immutable method" />
     <MESSAGE value="feat(ArraysHashing): Add Find All Numbers Disappeared in an Array method" />
     <MESSAGE value="feat(ArraysHashing): Add Maximum Number of Balloons method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Maximum Number of Balloons method" />
+    <MESSAGE value="feat(ArraysHashing): Add Word Pattern method" />
+    <MESSAGE value="feat(ArraysHashing): Add Top K Frequent Elements method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Top K Frequent Elements method" />
   </component>
 </project>

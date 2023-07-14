@@ -39,6 +39,7 @@ public class ArraysHashingMain {
         findDisappearedNumbersMain();
         maxNumberOfBalloonsMain();
         wordPatternMain();
+        topKFrequentMain();
     }
 
     private static void isAnagramMain() {
@@ -345,6 +346,20 @@ public class ArraysHashingMain {
         System.out.println(ARRAY_TEXT + words);
         System.out.println(patternText + pattern);
         System.out.println(RESULT_CASE_3 + ArraysHashing.wordPattern(pattern, words));
+    }
+
+    private static void topKFrequentMain() {
+        System.out.println("\n\nTop K Frequent Elements");
+        int[] nums = {1,1,1,2,2,3};
+        int k = 2;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println("K: " + k);
+        System.out.println(RESULT_CASE_1 + Arrays.toString(ArraysHashing.topKFrequent(nums, k)));
+        nums = new int[] {1};
+        k = 1;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println("K: " + k);
+        System.out.println(RESULT_CASE_2 + Arrays.toString(ArraysHashing.topKFrequent(nums, k)));
     }
 
 }
