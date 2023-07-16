@@ -40,6 +40,7 @@ public class ArraysHashingMain {
         maxNumberOfBalloonsMain();
         wordPatternMain();
         topKFrequentMain();
+        productExceptSelfMain();
     }
 
     private static void isAnagramMain() {
@@ -360,6 +361,16 @@ public class ArraysHashingMain {
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println("K: " + k);
         System.out.println(RESULT_CASE_2 + Arrays.toString(ArraysHashing.topKFrequent(nums, k)));
+    }
+
+    private static void productExceptSelfMain() {
+        System.out.println("\n\nProduct of Array Except Self\n");
+        int[] nums = {1,2,3,4};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_1 + Arrays.toString(ArraysHashing.productExceptSelf(nums)));
+        nums = new int[] {-1,1,0,-3,3};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_2 + Arrays.toString(ArraysHashing.productExceptSelf(nums)));
     }
 
 }
