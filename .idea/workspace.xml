@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Top K Frequent Elements method">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Product of Array Except Self method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
@@ -249,14 +249,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00026" summary="feat: create Arrays/Hashing class and add method to verify array int contains duplicate">
-      <option name="closed" value="true" />
-      <created>1687442557038</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1687442557038</updated>
-    </task>
     <task id="LOCAL-00027" summary="feat: Add method to verify if is an anagram">
       <option name="closed" value="true" />
       <created>1687443407285</created>
@@ -441,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689366349210</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="feat(ArraysHashing): Add Product of Array Except Self method">
+      <option name="closed" value="true" />
+      <created>1689518556371</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1689518556372</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: utility classes should not have public constructors" />
     <MESSAGE value="feat: create Arrays/Hashing class and add method to verify array int contains duplicate" />
     <MESSAGE value="feat: Add method to verify if is an anagram" />
     <MESSAGE value="feat: Add concatenation of array method" />
@@ -481,6 +480,7 @@
     <MESSAGE value="feat(ArraysHashing): Add Maximum Number of Balloons method" />
     <MESSAGE value="feat(ArraysHashing): Add Word Pattern method" />
     <MESSAGE value="feat(ArraysHashing): Add Top K Frequent Elements method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Top K Frequent Elements method" />
+    <MESSAGE value="feat(ArraysHashing): Add Product of Array Except Self method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Product of Array Except Self method" />
   </component>
 </project>

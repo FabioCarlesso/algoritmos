@@ -41,6 +41,7 @@ public class ArraysHashingMain {
         wordPatternMain();
         topKFrequentMain();
         productExceptSelfMain();
+        longestConsecutiveSequenceMain();
     }
 
     private static void isAnagramMain() {
@@ -371,6 +372,16 @@ public class ArraysHashingMain {
         nums = new int[] {-1,1,0,-3,3};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println(RESULT_CASE_2 + Arrays.toString(ArraysHashing.productExceptSelf(nums)));
+    }
+
+    private static void longestConsecutiveSequenceMain() {
+        System.out.println("\n\nLongest Consecutive Sequence\n");
+        int[] nums = {100,4,200,1,3,2};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_1 + ArraysHashing.longestConsecutive(nums));
+        nums = new int[] {0,3,7,2,5,8,4,6,0,1};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_2 + ArraysHashing.longestConsecutive(nums));
     }
 
 }
