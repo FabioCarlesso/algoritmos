@@ -42,6 +42,7 @@ public class ArraysHashingMain {
         topKFrequentMain();
         productExceptSelfMain();
         longestConsecutiveSequenceMain();
+        sortColorsMain(); //semelhante ao sortArray
     }
 
     private static void isAnagramMain() {
@@ -382,6 +383,18 @@ public class ArraysHashingMain {
         nums = new int[] {0,3,7,2,5,8,4,6,0,1};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println(RESULT_CASE_2 + ArraysHashing.longestConsecutive(nums));
+    }
+
+    private static void sortColorsMain() {
+        System.out.println("\n\nSort Colors\n\n");
+        int[] nums = {2,0,2,1,1,0};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        ArraysHashing.sortArray(nums);
+        System.out.println(RESULT_CASE_1 + Arrays.toString(nums));
+        nums = new int[] {2,0,1};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        ArraysHashing.sortArray(nums);
+        System.out.println(RESULT_CASE_2 + Arrays.toString(nums));
     }
 
 }

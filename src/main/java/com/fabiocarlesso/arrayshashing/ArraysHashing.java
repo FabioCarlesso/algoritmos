@@ -376,4 +376,18 @@ public class ArraysHashing {
         return ans;
     }
 
+    public static void sortColors(int[] nums) {
+        int left = 0;
+        int mid = 0;
+        int right = nums.length - 1;
+        while (mid <= right) {
+            System.out.println(nums[mid]);
+            if (nums[mid] == 1) mid++; else if (nums[mid] == 0) {
+                swap(nums, mid++, left++);
+            } else if (nums[mid] == 2) {
+                swap(nums, mid, right--);
+            }
+        }
+    }
+
 }
