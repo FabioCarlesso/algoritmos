@@ -1,6 +1,7 @@
 package com.fabiocarlesso.mainexecution;
 
 import com.fabiocarlesso.arrayshashing.ArraysHashing;
+import com.fabiocarlesso.arrayshashing.Codec;
 import com.fabiocarlesso.arrayshashing.NumArray;
 import com.fabiocarlesso.util.Utils;
 
@@ -43,6 +44,7 @@ public class ArraysHashingMain {
         productExceptSelfMain();
         longestConsecutiveSequenceMain();
         sortColorsMain(); //semelhante ao sortArray
+        encodeDecodeTinyURLMain();
     }
 
     private static void isAnagramMain() {
@@ -395,6 +397,16 @@ public class ArraysHashingMain {
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         ArraysHashing.sortArray(nums);
         System.out.println(RESULT_CASE_2 + Arrays.toString(nums));
+    }
+
+    private static void encodeDecodeTinyURLMain() {
+        System.out.println("\n\nEncode and Decode TinyURL\n\n");
+        String url = "https://leetcode.com/problems/design-tinyurl";
+        Codec codec = new Codec();
+        codec.decode(codec.encode(url));
+        System.out.println(ARRAY_TEXT + url);
+        System.out.println("Encode: http://t.u/" + codec.encode(url));
+        System.out.println(RESULT_CASE_1 + codec.decode(codec.encode(url)));
     }
 
 }

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Longest Consecutive Sequence method">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Sort Colors method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/Codec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -249,14 +250,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00028" summary="feat: Add concatenation of array method">
-      <option name="closed" value="true" />
-      <created>1687541694957</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1687541694957</updated>
-    </task>
     <task id="LOCAL-00029" summary="feat: Add replace elements with greatest element on right side from array int method">
       <option name="closed" value="true" />
       <created>1687542959655</created>
@@ -441,7 +434,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689701643245</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="feat(ArraysHashing): Add Sort Colors method">
+      <option name="closed" value="true" />
+      <created>1689776387031</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1689776387032</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Add method to verify if is an anagram" />
     <MESSAGE value="feat: Add concatenation of array method" />
     <MESSAGE value="feat: Add replace elements with greatest element on right side from array int method" />
     <MESSAGE value="feat: Add subsequence method" />
@@ -481,6 +481,7 @@
     <MESSAGE value="feat(ArraysHashing): Add Top K Frequent Elements method" />
     <MESSAGE value="feat(ArraysHashing): Add Product of Array Except Self method" />
     <MESSAGE value="feat(ArraysHashing): Add Longest Consecutive Sequence method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Longest Consecutive Sequence method" />
+    <MESSAGE value="feat(ArraysHashing): Add Sort Colors method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Sort Colors method" />
   </component>
 </project>
