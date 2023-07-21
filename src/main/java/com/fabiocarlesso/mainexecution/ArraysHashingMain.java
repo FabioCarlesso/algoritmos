@@ -45,6 +45,7 @@ public class ArraysHashingMain {
         longestConsecutiveSequenceMain();
         sortColorsMain(); //semelhante ao sortArray
         encodeDecodeTinyURLMain();
+        maxProfitMain();
     }
 
     private static void isAnagramMain() {
@@ -407,6 +408,19 @@ public class ArraysHashingMain {
         System.out.println(ARRAY_TEXT + url);
         System.out.println("Encode: http://t.u/" + codec.encode(url));
         System.out.println(RESULT_CASE_1 + codec.decode(codec.encode(url)));
+    }
+
+    private static void maxProfitMain() {
+        System.out.println("\n\nBest Time to Buy and Sell Stock II - Max Profit\n\n");
+        int[] prices = {7,1,5,3,6,4};
+        System.out.println(ARRAY_TEXT + Arrays.toString(prices));
+        System.out.println(RESULT_CASE_1 + ArraysHashing.maxProfit(prices));
+        prices = new int[] {1,2,3,4,5};
+        System.out.println(ARRAY_TEXT + Arrays.toString(prices));
+        System.out.println(RESULT_CASE_2 + ArraysHashing.maxProfit(prices));
+        prices = new int[] {7,6,4,3,1};
+        System.out.println(ARRAY_TEXT + Arrays.toString(prices));
+        System.out.println(RESULT_CASE_2 + ArraysHashing.maxProfit(prices));
     }
 
 }
