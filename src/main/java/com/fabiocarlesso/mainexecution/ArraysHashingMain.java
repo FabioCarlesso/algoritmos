@@ -46,6 +46,7 @@ public class ArraysHashingMain {
         sortColorsMain(); //semelhante ao sortArray
         encodeDecodeTinyURLMain();
         maxProfitMain();
+        subarraySumEqualsKMain();
     }
 
     private static void isAnagramMain() {
@@ -421,6 +422,20 @@ public class ArraysHashingMain {
         prices = new int[] {7,6,4,3,1};
         System.out.println(ARRAY_TEXT + Arrays.toString(prices));
         System.out.println(RESULT_CASE_2 + ArraysHashing.maxProfit(prices));
+    }
+
+    private static void subarraySumEqualsKMain() {
+        System.out.println("\n\nSubarray Sum Equals K\n");
+        int[] nums = {1,1,1};
+        int k = 2;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println("K: " + k);
+        System.out.println(RESULT_CASE_1 + ArraysHashing.subarraySum(nums, k));
+        nums = new int[] {1,2,3};
+        k = 3;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println("K: " + k);
+        System.out.println(RESULT_CASE_2 + ArraysHashing.subarraySum(nums, k));
     }
 
 }
