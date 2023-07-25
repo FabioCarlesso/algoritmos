@@ -47,6 +47,7 @@ public class ArraysHashingMain {
         encodeDecodeTinyURLMain();
         maxProfitMain();
         subarraySumEqualsKMain();
+        minSwapsStringBalancedMain();
     }
 
     private static void isAnagramMain() {
@@ -436,6 +437,19 @@ public class ArraysHashingMain {
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println("K: " + k);
         System.out.println(RESULT_CASE_2 + ArraysHashing.subarraySum(nums, k));
+    }
+
+    private static void minSwapsStringBalancedMain() {
+        System.out.println("\n\nMinimum Number of Swaps to Make the String Balanced");
+        String brackets = "][][";
+        System.out.println(ARRAY_TEXT + brackets);
+        System.out.println(RESULT_CASE_1 + ArraysHashing.minSwaps(brackets));
+        brackets = "]]][[[";
+        System.out.println(ARRAY_TEXT + brackets);
+        System.out.println(RESULT_CASE_2 + ArraysHashing.minSwaps(brackets));
+        brackets = "[]";
+        System.out.println(ARRAY_TEXT + brackets);
+        System.out.println(RESULT_CASE_2 + ArraysHashing.minSwaps(brackets));
     }
 
 }

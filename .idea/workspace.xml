@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Best Time to Buy and Sell Stock II - Max Profit method">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Subarray Sum Equals K method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
@@ -249,14 +249,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00032" summary="feat: Add twoSum method">
-      <option name="closed" value="true" />
-      <created>1687811911903</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1687811911903</updated>
-    </task>
     <task id="LOCAL-00033" summary="feat: Add longest Common Prefix method">
       <option name="closed" value="true" />
       <created>1687954925607</created>
@@ -441,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689948775521</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="feat(ArraysHashing): Add Subarray Sum Equals K method">
+      <option name="closed" value="true" />
+      <created>1690205832121</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1690205832122</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Add Length Of Last Word method" />
     <MESSAGE value="feat: Add twoSum method" />
     <MESSAGE value="feat: Add longest Common Prefix method" />
     <MESSAGE value="feat: Add Group Anagrams method" />
@@ -481,6 +480,7 @@
     <MESSAGE value="feat(pom): Add Commons Lang library from Apache" />
     <MESSAGE value="feat(ArraysHashing): Add Encode and Decode TinyURL method" />
     <MESSAGE value="feat(ArraysHashing): Add Best Time to Buy and Sell Stock II - Max Profit method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Best Time to Buy and Sell Stock II - Max Profit method" />
+    <MESSAGE value="feat(ArraysHashing): Add Subarray Sum Equals K method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Subarray Sum Equals K method" />
   </component>
 </project>
