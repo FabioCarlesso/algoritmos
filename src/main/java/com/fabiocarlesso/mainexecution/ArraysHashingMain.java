@@ -48,6 +48,7 @@ public class ArraysHashingMain {
         maxProfitMain();
         subarraySumEqualsKMain();
         minSwapsStringBalancedMain();
+        interchangeableRectanglesMain();
     }
 
     private static void isAnagramMain() {
@@ -450,6 +451,16 @@ public class ArraysHashingMain {
         brackets = "[]";
         System.out.println(ARRAY_TEXT + brackets);
         System.out.println(RESULT_CASE_2 + ArraysHashing.minSwaps(brackets));
+    }
+
+    private static void interchangeableRectanglesMain() {
+        System.out.println("\n\nNumber of Pairs of Interchangeable Rectangles");
+        int[][] rectangles = {{4,8}, {3,6},{10,20},{15,30}};
+        System.out.println(ARRAY_TEXT + Arrays.deepToString(rectangles));
+        System.out.println(RESULT_CASE_1 + ArraysHashing.interchangeableRectangles(rectangles));
+        rectangles = new int[][]{{4, 5}, {7, 8}};
+        System.out.println(ARRAY_TEXT + Arrays.deepToString(rectangles));
+        System.out.println(RESULT_CASE_1 + ArraysHashing.interchangeableRectangles(rectangles));
     }
 
 }
