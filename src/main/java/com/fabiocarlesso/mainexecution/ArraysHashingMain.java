@@ -395,11 +395,11 @@ public class ArraysHashingMain {
         System.out.println("\n\nSort Colors\n\n");
         int[] nums = {2,0,2,1,1,0};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
-        ArraysHashing.sortArray(nums);
+        ArraysHashing.sortColors(nums);
         System.out.println(RESULT_CASE_1 + Arrays.toString(nums));
         nums = new int[] {2,0,1};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
-        ArraysHashing.sortArray(nums);
+        ArraysHashing.sortColors(nums);
         System.out.println(RESULT_CASE_2 + Arrays.toString(nums));
     }
 

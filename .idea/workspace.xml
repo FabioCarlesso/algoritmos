@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Minimum Number of Swaps to Make the String Balanced method">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Number of Pairs of Interchangeable Rectangles method">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2R1n3eC6FVBgO9dYBHONtg0PeqL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -41,8 +44,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;
   }
 }</component>
   <component name="RunManager">
@@ -249,14 +254,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00034" summary="feat: Add Group Anagrams method">
-      <option name="closed" value="true" />
-      <created>1687956319884</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1687956319884</updated>
-    </task>
     <task id="LOCAL-00035" summary="feat: Add sort array method">
       <option name="closed" value="true" />
       <created>1688043844646</created>
@@ -441,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690287142225</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="feat(ArraysHashing): Add Number of Pairs of Interchangeable Rectangles method">
+      <option name="closed" value="true" />
+      <created>1690376982393</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1690376982394</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Add longest Common Prefix method" />
     <MESSAGE value="feat: Add Group Anagrams method" />
     <MESSAGE value="feat: Add sort array method" />
     <MESSAGE value="feat: Add Generate Pascal Triangle method" />
@@ -481,6 +485,11 @@
     <MESSAGE value="feat(ArraysHashing): Add Best Time to Buy and Sell Stock II - Max Profit method" />
     <MESSAGE value="feat(ArraysHashing): Add Subarray Sum Equals K method" />
     <MESSAGE value="feat(ArraysHashing): Add Minimum Number of Swaps to Make the String Balanced method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Minimum Number of Swaps to Make the String Balanced method" />
+    <MESSAGE value="feat(ArraysHashing): Add Number of Pairs of Interchangeable Rectangles method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Number of Pairs of Interchangeable Rectangles method" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
