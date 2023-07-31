@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Number of Pairs of Interchangeable Rectangles method">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="fix(ArraysHasshing): Call for sortColors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,14 +254,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00035" summary="feat: Add sort array method">
-      <option name="closed" value="true" />
-      <created>1688043844646</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1688043844646</updated>
-    </task>
     <task id="LOCAL-00036" summary="feat: Add Generate Pascal Triangle method">
       <option name="closed" value="true" />
       <created>1688129368433</created>
@@ -446,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690376982394</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="fix(ArraysHasshing): Call for sortColors">
+      <option name="closed" value="true" />
+      <created>1690826597905</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1690826597906</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -461,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Add Group Anagrams method" />
     <MESSAGE value="feat: Add sort array method" />
     <MESSAGE value="feat: Add Generate Pascal Triangle method" />
     <MESSAGE value="fix: Move swap to utils" />
@@ -486,10 +485,19 @@
     <MESSAGE value="feat(ArraysHashing): Add Subarray Sum Equals K method" />
     <MESSAGE value="feat(ArraysHashing): Add Minimum Number of Swaps to Make the String Balanced method" />
     <MESSAGE value="feat(ArraysHashing): Add Number of Pairs of Interchangeable Rectangles method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Number of Pairs of Interchangeable Rectangles method" />
+    <MESSAGE value="fix(ArraysHasshing): Call for sortColors" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(ArraysHasshing): Call for sortColors" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.github.lppedd.cc.CommitBuilderDialog">
+    <type>feat</type>
+    <scope>ArraysHashing</scope>
+    <subject>Add Number of Pairs of Interchangeable Rectangles method</subject>
+    <footers>
+      <entry type="" value="" />
+    </footers>
   </component>
 </project>

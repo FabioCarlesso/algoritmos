@@ -49,6 +49,7 @@ public class ArraysHashingMain {
         subarraySumEqualsKMain();
         minSwapsStringBalancedMain();
         interchangeableRectanglesMain();
+        findAnagramsMain(); //poderia ter utilizado o isAnagram com groupAnagrams para simplicaficar a logica
     }
 
     private static void isAnagramMain() {
@@ -461,6 +462,21 @@ public class ArraysHashingMain {
         rectangles = new int[][]{{4, 5}, {7, 8}};
         System.out.println(ARRAY_TEXT + Arrays.deepToString(rectangles));
         System.out.println(RESULT_CASE_1 + ArraysHashing.interchangeableRectangles(rectangles));
+    }
+
+    private static void findAnagramsMain() {
+        System.out.println("\n\nFind All Anagrams in a String");
+        String word = "cbaebabacd";
+        String pattern = "abc";
+        System.out.println(ARRAY_TEXT + word);
+        String patternText = "Pattern: ";
+        System.out.println(patternText + pattern);
+        System.out.println(RESULT_CASE_1 + ArraysHashing.findAnagrams(word, pattern));
+        word = "abab";
+        pattern = "ab";
+        System.out.println(ARRAY_TEXT + word);
+        System.out.println(patternText + pattern);
+        System.out.println(RESULT_CASE_2 + ArraysHashing.findAnagrams(word, pattern));
     }
 
 }
