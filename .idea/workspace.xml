@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="fix(ArraysHasshing): Call for sortColors">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Find All Anagrams in a String method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
@@ -30,9 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2R1n3eC6FVBgO9dYBHONtg0PeqL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -254,14 +254,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00036" summary="feat: Add Generate Pascal Triangle method">
-      <option name="closed" value="true" />
-      <created>1688129368433</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1688129368433</updated>
-    </task>
     <task id="LOCAL-00037" summary="fix: Move swap to utils">
       <option name="closed" value="true" />
       <created>1688391221642</created>
@@ -446,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690826597906</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="feat(ArraysHashing): Add Find All Anagrams in a String method">
+      <option name="closed" value="true" />
+      <created>1690827221085</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1690827221085</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -461,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Add sort array method" />
     <MESSAGE value="feat: Add Generate Pascal Triangle method" />
     <MESSAGE value="fix: Move swap to utils" />
     <MESSAGE value="feat: Add remove element method" />
@@ -486,18 +485,11 @@
     <MESSAGE value="feat(ArraysHashing): Add Minimum Number of Swaps to Make the String Balanced method" />
     <MESSAGE value="feat(ArraysHashing): Add Number of Pairs of Interchangeable Rectangles method" />
     <MESSAGE value="fix(ArraysHasshing): Call for sortColors" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(ArraysHasshing): Call for sortColors" />
+    <MESSAGE value="feat(ArraysHashing): Add Find All Anagrams in a String method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Find All Anagrams in a String method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
-  </component>
-  <component name="com.github.lppedd.cc.CommitBuilderDialog">
-    <type>feat</type>
-    <scope>ArraysHashing</scope>
-    <subject>Add Number of Pairs of Interchangeable Rectangles method</subject>
-    <footers>
-      <entry type="" value="" />
-    </footers>
   </component>
 </project>

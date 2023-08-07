@@ -50,6 +50,7 @@ public class ArraysHashingMain {
         minSwapsStringBalancedMain();
         interchangeableRectanglesMain();
         findAnagramsMain(); //poderia ter utilizado o isAnagram com groupAnagrams para simplicaficar a logica
+        largestNumberMain();
     }
 
     private static void isAnagramMain() {
@@ -477,6 +478,16 @@ public class ArraysHashingMain {
         System.out.println(ARRAY_TEXT + word);
         System.out.println(patternText + pattern);
         System.out.println(RESULT_CASE_2 + ArraysHashing.findAnagrams(word, pattern));
+    }
+
+    private static void largestNumberMain() {
+        System.out.println("\n\nLargest Number");
+        int[] nums = {10,2};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_1 + ArraysHashing.largestNumber(nums));
+        nums = new int[] {3,30,34,5,9};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_2 + ArraysHashing.largestNumber(nums));
     }
 
 }
