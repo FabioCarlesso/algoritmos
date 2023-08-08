@@ -51,6 +51,7 @@ public class ArraysHashingMain {
         interchangeableRectanglesMain();
         findAnagramsMain(); //poderia ter utilizado o isAnagram com groupAnagrams para simplicaficar a logica
         largestNumberMain();
+        checkSubarraySumMain(); //poderia ter utilizado o subarraySum para simplificar a logica
     }
 
     private static void isAnagramMain() {
@@ -488,6 +489,24 @@ public class ArraysHashingMain {
         nums = new int[] {3,30,34,5,9};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println(RESULT_CASE_2 + ArraysHashing.largestNumber(nums));
+    }
+
+    private static void checkSubarraySumMain() {
+        System.out.println("\n\nContinuous Subarray Sum\n");
+        int[] nums = {23,2,4,6,7};
+        int k = 6;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println("K: " + k);
+        System.out.println(RESULT_CASE_1 + ArraysHashing.checkSubarraySum(nums, k));
+        nums = new int[] {23,2,6,4,7};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println("K: " + k);
+        System.out.println(RESULT_CASE_2 + ArraysHashing.checkSubarraySum(nums, k));
+        nums = new int[] {23,2,6,4,7};
+        k = 13;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println("K: " + k);
+        System.out.println(RESULT_CASE_3 + ArraysHashing.checkSubarraySum(nums, k));
     }
 
 }
