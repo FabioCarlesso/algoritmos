@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Largest Number method">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Continuous Subarray Sum method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
@@ -254,14 +254,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00038" summary="feat: Add remove element method">
-      <option name="closed" value="true" />
-      <created>1688394512351</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1688394512351</updated>
-    </task>
     <task id="LOCAL-00039" summary="feat: Add Number of Unique Email Addresses method">
       <option name="closed" value="true" />
       <created>1688491446937</created>
@@ -446,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691415010819</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="feat(ArraysHashing): Add Continuous Subarray Sum method">
+      <option name="closed" value="true" />
+      <created>1691506664424</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1691506664424</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -461,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: Move swap to utils" />
     <MESSAGE value="feat: Add remove element method" />
     <MESSAGE value="feat: Add Number of Unique Email Addresses method" />
     <MESSAGE value="feat: Add Isomorphic Strings method" />
@@ -486,7 +485,8 @@
     <MESSAGE value="fix(ArraysHasshing): Call for sortColors" />
     <MESSAGE value="feat(ArraysHashing): Add Find All Anagrams in a String method" />
     <MESSAGE value="feat(ArraysHashing): Add Largest Number method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Largest Number method" />
+    <MESSAGE value="feat(ArraysHashing): Add Continuous Subarray Sum method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Continuous Subarray Sum method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

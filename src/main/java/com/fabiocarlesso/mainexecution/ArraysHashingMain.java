@@ -52,6 +52,7 @@ public class ArraysHashingMain {
         findAnagramsMain(); //poderia ter utilizado o isAnagram com groupAnagrams para simplicaficar a logica
         largestNumberMain();
         checkSubarraySumMain(); //poderia ter utilizado o subarraySum para simplificar a logica
+        findRepeatedDnaSequencesMain();
     }
 
     private static void isAnagramMain() {
@@ -507,6 +508,19 @@ public class ArraysHashingMain {
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println("K: " + k);
         System.out.println(RESULT_CASE_3 + ArraysHashing.checkSubarraySum(nums, k));
+    }
+
+    private static void findRepeatedDnaSequencesMain() {
+        System.out.println("\n\nRepeated DNA Sequences\n");
+        String dna = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
+        System.out.println(ARRAY_TEXT + dna);
+        System.out.println(RESULT_CASE_1 + ArraysHashing.findRepeatedDnaSequences(dna));
+        dna = "AAAAAAAAAAAAA";
+        System.out.println(ARRAY_TEXT + dna);
+        System.out.println(RESULT_CASE_2 + ArraysHashing.findRepeatedDnaSequences(dna));
+        dna = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTTAAAACCCGTGTGTGTGTTAAAAACCCCCAAAAACCCCCCAAAAA";
+        System.out.println(ARRAY_TEXT + dna);
+        System.out.println(RESULT_CASE_3 + ArraysHashing.findRepeatedDnaSequences(dna));
     }
 
 }
