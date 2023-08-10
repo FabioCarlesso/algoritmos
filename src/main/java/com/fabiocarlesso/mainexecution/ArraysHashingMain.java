@@ -3,6 +3,7 @@ package com.fabiocarlesso.mainexecution;
 import com.fabiocarlesso.arrayshashing.ArraysHashing;
 import com.fabiocarlesso.arrayshashing.Codec;
 import com.fabiocarlesso.arrayshashing.NumArray;
+import com.fabiocarlesso.arrayshashing.RandomizedSet;
 import com.fabiocarlesso.util.Utils;
 
 import java.util.Arrays;
@@ -53,6 +54,7 @@ public class ArraysHashingMain {
         largestNumberMain();
         checkSubarraySumMain(); //poderia ter utilizado o subarraySum para simplificar a logica
         findRepeatedDnaSequencesMain();
+        randomizedSetMain();
     }
 
     private static void isAnagramMain() {
@@ -521,6 +523,21 @@ public class ArraysHashingMain {
         dna = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTTAAAACCCGTGTGTGTGTTAAAAACCCCCAAAAACCCCCCAAAAA";
         System.out.println(ARRAY_TEXT + dna);
         System.out.println(RESULT_CASE_3 + ArraysHashing.findRepeatedDnaSequences(dna));
+    }
+
+    private static void randomizedSetMain() {
+        System.out.println("\n\nInsert Delete GetRandom O(1)\n");
+        RandomizedSet randomizedSet = new RandomizedSet();
+        System.out.println(RESULT_CASE_1);
+        System.out.println(randomizedSet.insert(1));
+        System.out.println(randomizedSet.remove(2));
+        System.out.println(randomizedSet.insert(2));
+        System.out.println(randomizedSet.getRandom());
+        System.out.println(ARRAY_TEXT + randomizedSet.getNumbers());
+        System.out.println(randomizedSet.remove(1));
+        System.out.println(randomizedSet.insert(2));
+        System.out.println(randomizedSet.getRandom());
+        System.out.println(ARRAY_TEXT + randomizedSet.getNumbers());
     }
 
 }

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Continuous Subarray Sum method">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add Repeated DNA Sequences method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/RandomizedSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,14 +254,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00039" summary="feat: Add Number of Unique Email Addresses method">
-      <option name="closed" value="true" />
-      <created>1688491446937</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1688491446937</updated>
-    </task>
     <task id="LOCAL-00040" summary="feat: Add Isomorphic Strings method">
       <option name="closed" value="true" />
       <created>1688579739533</created>
@@ -446,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691506664424</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="feat(ArraysHashing): Add Repeated DNA Sequences method">
+      <option name="closed" value="true" />
+      <created>1691600767878</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1691600767879</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -461,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Add remove element method" />
     <MESSAGE value="feat: Add Number of Unique Email Addresses method" />
     <MESSAGE value="feat: Add Isomorphic Strings method" />
     <MESSAGE value="feat: Add Can Place Flowers method" />
@@ -486,7 +485,8 @@
     <MESSAGE value="feat(ArraysHashing): Add Find All Anagrams in a String method" />
     <MESSAGE value="feat(ArraysHashing): Add Largest Number method" />
     <MESSAGE value="feat(ArraysHashing): Add Continuous Subarray Sum method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Continuous Subarray Sum method" />
+    <MESSAGE value="feat(ArraysHashing): Add Repeated DNA Sequences method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add Repeated DNA Sequences method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
