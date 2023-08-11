@@ -55,6 +55,7 @@ public class ArraysHashingMain {
         checkSubarraySumMain(); //poderia ter utilizado o subarraySum para simplificar a logica
         findRepeatedDnaSequencesMain();
         randomizedSetMain();
+        firstMissingPositiveMain(); //melhorar legibilidade
     }
 
     private static void isAnagramMain() {
@@ -538,6 +539,19 @@ public class ArraysHashingMain {
         System.out.println(randomizedSet.insert(2));
         System.out.println(randomizedSet.getRandom());
         System.out.println(ARRAY_TEXT + randomizedSet.getNumbers());
+    }
+
+    private static void firstMissingPositiveMain() {
+        System.out.println("\n\nFirst Missing Positive\n");
+        int[] nums = {1,2,0};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_1 + ArraysHashing.firstMissingPositive(nums));
+        nums = new int[]{3,4,-1,1};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_2 + ArraysHashing.firstMissingPositive(nums));
+        nums = new int[]{7,8,9,11,12};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_3 + ArraysHashing.firstMissingPositive(nums));
     }
 
 }
