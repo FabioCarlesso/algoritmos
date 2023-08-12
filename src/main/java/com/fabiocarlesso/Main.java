@@ -20,5 +20,6 @@ public class Main {
         DijkstraMain.dijkstraMain();
         FordFulkersonMain.fordFulkersonMain();
         ArraysHashingMain.arraysHashingMain();
+        TwoPointersMain.twoPointersMain();
     }
 }
