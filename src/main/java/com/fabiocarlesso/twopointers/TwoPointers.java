@@ -28,4 +28,28 @@ public class TwoPointers {
         }
         return true;
     }
+
+    public static boolean validPalindrome(String s) {
+        int i = 0;
+        int j = s.length() - 1;
+        while(i < j)
+            if(s.charAt(i) == s.charAt(j)) {
+                i += 1;
+                j -= 1;
+            }else
+                return validPalindromeUtil(s, i + 1, j) || validPalindromeUtil(s, i, j - 1);
+        return true;
+    }
+
+    private static boolean validPalindromeUtil(String s, int i, int j) {
+        while(i < j)
+            if(s.charAt(i) == s.charAt(j)) {
+                i += 1;
+                j -= 1;
+            } else {
+                return false;
+            }
+        return true;
+    }
+
 }

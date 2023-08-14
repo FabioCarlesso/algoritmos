@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(ArraysHashing): Add First Missing Positive method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/TwoPointersMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/twopointers/TwoPointers.java" afterDir="false" />
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(TwoPointers): Create two pointers algorithms and add Valid Palindrome method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/TwoPointersMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/TwoPointersMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/twopointers/TwoPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/twopointers/TwoPointers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,14 +254,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00042" summary="feat: Add Majority Element method">
-      <option name="closed" value="true" />
-      <created>1688734005779</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1688734005779</updated>
-    </task>
     <task id="LOCAL-00043" summary="feat(ArraysHasshing): Add Next Greater Element I method">
       <option name="closed" value="true" />
       <created>1688850847668</created>
@@ -447,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691761532957</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="feat(TwoPointers): Create two pointers algorithms and add Valid Palindrome method.">
+      <option name="closed" value="true" />
+      <created>1691871587248</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1691871587249</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Add Can Place Flowers method" />
     <MESSAGE value="feat: Add Majority Element method" />
     <MESSAGE value="feat(ArraysHasshing): Add Next Greater Element I method" />
     <MESSAGE value="feat(ArraysHasshing): Add Pivot Index method" />
@@ -487,7 +485,8 @@
     <MESSAGE value="feat(ArraysHashing): Add Repeated DNA Sequences method" />
     <MESSAGE value="feat(ArraysHashing): Add RandomizedSet Insert Delete GetRandom O(1) method" />
     <MESSAGE value="feat(ArraysHashing): Add First Missing Positive method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(ArraysHashing): Add First Missing Positive method" />
+    <MESSAGE value="feat(TwoPointers): Create two pointers algorithms and add Valid Palindrome method." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(TwoPointers): Create two pointers algorithms and add Valid Palindrome method." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
