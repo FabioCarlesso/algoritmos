@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(TwoPointers): Create two pointers algorithms and add Valid Palindrome method.">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(TwoPointers): Add Valid Palindrome II method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/TwoPointersMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/TwoPointersMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/twopointers/TwoPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/twopointers/TwoPointers.java" afterDir="false" />
@@ -254,14 +254,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00043" summary="feat(ArraysHasshing): Add Next Greater Element I method">
-      <option name="closed" value="true" />
-      <created>1688850847668</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1688850847668</updated>
-    </task>
     <task id="LOCAL-00044" summary="feat(ArraysHasshing): Add Pivot Index method">
       <option name="closed" value="true" />
       <created>1688928743469</created>
@@ -446,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691871587249</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="feat(TwoPointers): Add Valid Palindrome II method.">
+      <option name="closed" value="true" />
+      <created>1692020452644</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1692020452644</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -461,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Add Majority Element method" />
     <MESSAGE value="feat(ArraysHasshing): Add Next Greater Element I method" />
     <MESSAGE value="feat(ArraysHasshing): Add Pivot Index method" />
     <MESSAGE value="feat(ArraysHashing): Add Range Sum Query - Immutable method" />
@@ -486,7 +485,8 @@
     <MESSAGE value="feat(ArraysHashing): Add RandomizedSet Insert Delete GetRandom O(1) method" />
     <MESSAGE value="feat(ArraysHashing): Add First Missing Positive method" />
     <MESSAGE value="feat(TwoPointers): Create two pointers algorithms and add Valid Palindrome method." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(TwoPointers): Create two pointers algorithms and add Valid Palindrome method." />
+    <MESSAGE value="feat(TwoPointers): Add Valid Palindrome II method." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(TwoPointers): Add Valid Palindrome II method." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
