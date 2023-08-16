@@ -18,6 +18,7 @@ public class TwoPointersMain {
         isPalindromeMain();
         validPalindromeMain();
         minimumDifferenceMain();
+        reverseStringMain();
     }
     private static void isPalindromeMain() {
         System.out.println("\n\nValid Palindrome");
@@ -57,6 +58,18 @@ public class TwoPointersMain {
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println("K: " + k);
         System.out.println(RESULT_CASE_2 + TwoPointers.minimumDifference(nums, k));
+    }
+
+    private static void reverseStringMain() {
+        System.out.println("\n\nReverse String");
+        char[] phrase = "hello".toCharArray();
+        System.out.println(ARRAY_TEXT + Arrays.toString(phrase));
+        TwoPointers.reverseString(phrase);
+        System.out.println(RESULT_CASE_1 + Arrays.toString(phrase));
+        phrase = "Hannah".toCharArray();
+        System.out.println(ARRAY_TEXT + Arrays.toString(phrase));
+        TwoPointers.reverseString(phrase);
+        System.out.println(RESULT_CASE_2 + Arrays.toString(phrase));
     }
 
 }

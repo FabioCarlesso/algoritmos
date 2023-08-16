@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(TwoPointers): Add Valid Palindrome II method.">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(TwoPointers): Add Minimum Difference Between Highest and Lowest of K Scores method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/TwoPointersMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/TwoPointersMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/twopointers/TwoPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/twopointers/TwoPointers.java" afterDir="false" />
@@ -254,14 +254,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00044" summary="feat(ArraysHasshing): Add Pivot Index method">
-      <option name="closed" value="true" />
-      <created>1688928743469</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1688928743470</updated>
-    </task>
     <task id="LOCAL-00045" summary="feat(ArraysHashing): Add Range Sum Query - Immutable method">
       <option name="closed" value="true" />
       <created>1689001465506</created>
@@ -446,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692020452644</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="feat(TwoPointers): Add Minimum Difference Between Highest and Lowest of K Scores method.">
+      <option name="closed" value="true" />
+      <created>1692121839632</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1692121839633</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -461,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(ArraysHasshing): Add Next Greater Element I method" />
     <MESSAGE value="feat(ArraysHasshing): Add Pivot Index method" />
     <MESSAGE value="feat(ArraysHashing): Add Range Sum Query - Immutable method" />
     <MESSAGE value="feat(ArraysHashing): Add Find All Numbers Disappeared in an Array method" />
@@ -486,7 +485,8 @@
     <MESSAGE value="feat(ArraysHashing): Add First Missing Positive method" />
     <MESSAGE value="feat(TwoPointers): Create two pointers algorithms and add Valid Palindrome method." />
     <MESSAGE value="feat(TwoPointers): Add Valid Palindrome II method." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(TwoPointers): Add Valid Palindrome II method." />
+    <MESSAGE value="feat(TwoPointers): Add Minimum Difference Between Highest and Lowest of K Scores method." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(TwoPointers): Add Minimum Difference Between Highest and Lowest of K Scores method." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
