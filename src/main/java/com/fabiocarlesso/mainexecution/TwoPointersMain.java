@@ -19,6 +19,7 @@ public class TwoPointersMain {
         validPalindromeMain();
         minimumDifferenceMain();
         reverseStringMain();
+        mergeMain();
     }
     private static void isPalindromeMain() {
         System.out.println("\n\nValid Palindrome");
@@ -70,6 +71,40 @@ public class TwoPointersMain {
         System.out.println(ARRAY_TEXT + Arrays.toString(phrase));
         TwoPointers.reverseString(phrase);
         System.out.println(RESULT_CASE_2 + Arrays.toString(phrase));
+    }
+
+    private static void mergeMain() {
+        System.out.println("\n\nMerge Sorted Array");
+        int[] nums = {1,2,3,0,0,0};
+        int m = 3;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println("m: " + m);
+        int[] nums2 = {2,5,6};
+        int n = 3;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
+        System.out.println("n: " + n);
+        TwoPointers.merge(nums, m, nums2, n);
+        System.out.println(RESULT_CASE_1 + Arrays.toString(nums));
+        nums = new int[] {1};
+        m = 1;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println("m: " + m);
+        nums2 = new int[]{};
+        n = 0;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
+        System.out.println("n: " + n);
+        TwoPointers.merge(nums, m, nums2, n);
+        System.out.println(RESULT_CASE_2 + Arrays.toString(nums));
+        nums = new int[] {0};
+        m = 0;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println("m: " + m);
+        nums2 = new int[]{1};
+        n = 1;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
+        System.out.println("n: " + n);
+        TwoPointers.merge(nums, m, nums2, n);
+        System.out.println(RESULT_CASE_3 + Arrays.toString(nums));
     }
 
 }
