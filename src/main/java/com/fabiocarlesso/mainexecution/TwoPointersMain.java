@@ -20,6 +20,7 @@ public class TwoPointersMain {
         minimumDifferenceMain();
         reverseStringMain();
         mergeMain();
+        moveZeroesMain();
     }
     private static void isPalindromeMain() {
         System.out.println("\n\nValid Palindrome");
@@ -104,6 +105,22 @@ public class TwoPointersMain {
         System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
         System.out.println("n: " + n);
         TwoPointers.merge(nums, m, nums2, n);
+        System.out.println(RESULT_CASE_3 + Arrays.toString(nums));
+    }
+
+    private static void moveZeroesMain() {
+        System.out.println("\n\nMove Zeroes");
+        int[] nums = {0,1,0,3,12};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        TwoPointers.moveZeroes(nums);
+        System.out.println(RESULT_CASE_1 + Arrays.toString(nums));
+        nums = new int[] {0};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        TwoPointers.moveZeroes(nums);
+        System.out.println(RESULT_CASE_2 + Arrays.toString(nums));
+        nums = new int[] {1,2,3,0,0,0};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        TwoPointers.moveZeroes(nums);
         System.out.println(RESULT_CASE_3 + Arrays.toString(nums));
     }
 
