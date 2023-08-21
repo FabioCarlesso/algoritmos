@@ -21,6 +21,7 @@ public class TwoPointersMain {
         reverseStringMain();
         mergeMain();
         moveZeroesMain();
+        removeDuplicatesMain(); //A lição era remove, mas é mais uma count duplicates
     }
     private static void isPalindromeMain() {
         System.out.println("\n\nValid Palindrome");
@@ -122,6 +123,16 @@ public class TwoPointersMain {
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         TwoPointers.moveZeroes(nums);
         System.out.println(RESULT_CASE_3 + Arrays.toString(nums));
+    }
+
+    private static void removeDuplicatesMain() {
+        System.out.println("\n\nRemove Duplicates from Sorted Array (count duplicated)");
+        int[] nums = {1,1,2};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_1 + TwoPointers.removeDuplicates(nums));
+        nums = new int[] {0,0,1,1,1,2,2,3,3,4};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_2 + TwoPointers.removeDuplicates(nums));
     }
 
 }
