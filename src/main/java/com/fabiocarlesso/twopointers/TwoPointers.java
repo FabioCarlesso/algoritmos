@@ -114,4 +114,22 @@ public class TwoPointers {
         return swap;
     }
 
+    public static int[] twoSum(int[] numbers, int target) {
+        int aPointer = 0;
+        int bPointer = numbers.length - 1;
+        int numA;
+        int numB;
+        while (aPointer < bPointer) {
+            numA = numbers[aPointer];
+            numB = numbers[bPointer];
+            if (numA + numB == target) break;
+            if (numA + numB < target) {
+                aPointer++;
+                continue;
+            }
+            bPointer--;
+        }
+        return new int[] { aPointer + 1, bPointer + 1 };
+    }
+
 }

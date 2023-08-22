@@ -1,6 +1,5 @@
 package com.fabiocarlesso.mainexecution;
 
-import com.fabiocarlesso.arrayshashing.ArraysHashing;
 import com.fabiocarlesso.twopointers.TwoPointers;
 
 import java.util.Arrays;
@@ -22,6 +21,7 @@ public class TwoPointersMain {
         mergeMain();
         moveZeroesMain();
         removeDuplicatesMain(); //A lição era remove, mas é mais uma count duplicates
+        twoSumMain();
     }
     private static void isPalindromeMain() {
         System.out.println("\n\nValid Palindrome");
@@ -133,6 +133,26 @@ public class TwoPointersMain {
         nums = new int[] {0,0,1,1,1,2,2,3,3,4};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println(RESULT_CASE_2 + TwoPointers.removeDuplicates(nums));
+    }
+
+    private static void twoSumMain() {
+        System.out.println("\n\nTwo Sum II - Input Array Is Sorted");
+        int[] numbers = {2,7,11,15};
+        int target = 9;
+        String targetString = "Target: ";
+        System.out.println(ARRAY_TEXT + Arrays.toString(numbers));
+        System.out.println(targetString + target);
+        System.out.println(RESULT_CASE_1 + Arrays.toString(TwoPointers.twoSum(numbers, target)));
+        numbers = new int[] {2,3,4};
+        target = 6;
+        System.out.println(ARRAY_TEXT + Arrays.toString(numbers));
+        System.out.println(targetString + target);
+        System.out.println(RESULT_CASE_2 + Arrays.toString(TwoPointers.twoSum(numbers, target)));
+        numbers = new int[] {-1,0};
+        target = -1;
+        System.out.println(ARRAY_TEXT + Arrays.toString(numbers));
+        System.out.println(targetString + target);
+        System.out.println(RESULT_CASE_3 + Arrays.toString(TwoPointers.twoSum(numbers, target)));
     }
 
 }
