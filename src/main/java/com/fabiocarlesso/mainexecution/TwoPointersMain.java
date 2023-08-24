@@ -24,6 +24,7 @@ public class TwoPointersMain {
         removeDuplicatesMain(); //A lição era remove, mas é mais uma count duplicates
         twoSumMain();
         threeSumMain();
+        maxAreaMain();
     }
     private static void isPalindromeMain() {
         System.out.println("\n\nValid Palindrome");
@@ -168,6 +169,16 @@ public class TwoPointersMain {
         numbers = new int[] {0,0,0};
         System.out.println(ARRAY_TEXT + Arrays.toString(numbers));
         System.out.println(RESULT_CASE_2 + Arrays.toString(new List[]{TwoPointers.threeSum(numbers)}));
+    }
+
+    private static void maxAreaMain() {
+        System.out.println("\n\nContainer With Most Water - Max Area");
+        int[] height = {1,8,6,2,5,4,8,3,7};
+        System.out.println(ARRAY_TEXT + Arrays.toString(height));
+        System.out.println(RESULT_CASE_1 + TwoPointers.maxArea(height));
+        height = new int[] {1,1};
+        System.out.println(ARRAY_TEXT + Arrays.toString(height));
+        System.out.println(RESULT_CASE_2 + TwoPointers.maxArea(height));
     }
 
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(TwoPointers): Add Two Sum II - Input Array Is Sorted method">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(TwoPointers): Add 3Sum method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/TwoPointersMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/TwoPointersMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/twopointers/TwoPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/twopointers/TwoPointers.java" afterDir="false" />
@@ -255,14 +255,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00050" summary="feat(ArraysHashing): Add Product of Array Except Self method">
-      <option name="closed" value="true" />
-      <created>1689518556371</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1689518556372</updated>
-    </task>
     <task id="LOCAL-00051" summary="feat(ArraysHashing): Add Longest Consecutive Sequence method">
       <option name="closed" value="true" />
       <created>1689701643245</created>
@@ -447,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692729046573</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="feat(TwoPointers): Add 3Sum method">
+      <option name="closed" value="true" />
+      <created>1692794347106</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1692794347108</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,7 +462,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(ArraysHashing): Add Top K Frequent Elements method" />
     <MESSAGE value="feat(ArraysHashing): Add Product of Array Except Self method" />
     <MESSAGE value="feat(ArraysHashing): Add Longest Consecutive Sequence method" />
     <MESSAGE value="feat(ArraysHashing): Add Sort Colors method" />
@@ -487,7 +486,8 @@
     <MESSAGE value="feat(TwoPointers): Add Move Zeroes method." />
     <MESSAGE value="feat(TwoPointers): Add Remove Duplicates from Sorted Array method - count duplicated." />
     <MESSAGE value="feat(TwoPointers): Add Two Sum II - Input Array Is Sorted method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(TwoPointers): Add Two Sum II - Input Array Is Sorted method" />
+    <MESSAGE value="feat(TwoPointers): Add 3Sum method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(TwoPointers): Add 3Sum method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
