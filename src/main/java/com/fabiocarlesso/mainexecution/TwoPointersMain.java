@@ -25,6 +25,7 @@ public class TwoPointersMain {
         twoSumMain();
         threeSumMain();
         maxAreaMain();
+        trapMain();
     }
     private static void isPalindromeMain() {
         System.out.println("\n\nValid Palindrome");
@@ -179,6 +180,16 @@ public class TwoPointersMain {
         height = new int[] {1,1};
         System.out.println(ARRAY_TEXT + Arrays.toString(height));
         System.out.println(RESULT_CASE_2 + TwoPointers.maxArea(height));
+    }
+
+    private static void trapMain() {
+        System.out.println("\n\nTrapping Rain Water");
+        int[] height = {0,1,0,2,1,0,1,3,2,1,2,1};
+        System.out.println(ARRAY_TEXT + Arrays.toString(height));
+        System.out.println(RESULT_CASE_1 + TwoPointers.trap(height));
+        height = new int[] {4,2,0,3,2,5};
+        System.out.println(ARRAY_TEXT + Arrays.toString(height));
+        System.out.println(RESULT_CASE_2 + TwoPointers.trap(height));
     }
 
 }
