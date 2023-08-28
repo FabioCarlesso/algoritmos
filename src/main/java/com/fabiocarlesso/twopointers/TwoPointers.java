@@ -1,5 +1,7 @@
 package com.fabiocarlesso.twopointers;
 
+import com.fabiocarlesso.util.Utils;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -211,6 +213,31 @@ public class TwoPointers {
         }
 
         return res;
+    }
+
+    public static void rotate(int[] nums, int k) {
+        k = k % nums.length;
+        int l = 0;
+        int r = nums.length - 1;
+        while(l < r) {
+            Utils.swap(nums, l, r);
+            l += 1;
+            r -= 1;
+        }
+        l = 0;
+        r = k - 1;
+        while(l < r) {
+            Utils.swap(nums, l, r);
+            l += 1;
+            r -= 1;
+        }
+        l = k;
+        r = nums.length - 1;
+        while(l < r) {
+            Utils.swap(nums, l, r);
+            l += 1;
+            r -= 1;
+        }
     }
 
 }

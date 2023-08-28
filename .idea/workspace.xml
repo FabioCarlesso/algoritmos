@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(TwoPointers): Add Container With Most Water - Max Area method">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(TwoPointers): Add Trapping Rain Water method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/TwoPointersMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/TwoPointersMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/twopointers/TwoPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/twopointers/TwoPointers.java" afterDir="false" />
@@ -255,14 +255,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00052" summary="feat(ArraysHashing): Add Sort Colors method">
-      <option name="closed" value="true" />
-      <created>1689776387031</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1689776387032</updated>
-    </task>
     <task id="LOCAL-00053" summary="feat(pom): Add Commons Lang library from Apache">
       <option name="closed" value="true" />
       <created>1689878627888</created>
@@ -447,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692896233130</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="feat(TwoPointers): Add Trapping Rain Water method">
+      <option name="closed" value="true" />
+      <created>1692988049314</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1692988049315</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,7 +462,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(ArraysHashing): Add Longest Consecutive Sequence method" />
     <MESSAGE value="feat(ArraysHashing): Add Sort Colors method" />
     <MESSAGE value="feat(pom): Add Commons Lang library from Apache" />
     <MESSAGE value="feat(ArraysHashing): Add Encode and Decode TinyURL method" />
@@ -487,7 +486,8 @@
     <MESSAGE value="feat(TwoPointers): Add Two Sum II - Input Array Is Sorted method" />
     <MESSAGE value="feat(TwoPointers): Add 3Sum method" />
     <MESSAGE value="feat(TwoPointers): Add Container With Most Water - Max Area method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(TwoPointers): Add Container With Most Water - Max Area method" />
+    <MESSAGE value="feat(TwoPointers): Add Trapping Rain Water method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(TwoPointers): Add Trapping Rain Water method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
