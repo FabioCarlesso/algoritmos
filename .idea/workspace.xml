@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(TwoPointers): Add Trapping Rain Water method">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(TwoPointers): Add Rotate Array method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/TwoPointersMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/TwoPointersMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/twopointers/TwoPointers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/twopointers/TwoPointers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/arrayshashing/ArraysHashing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/ArraysHashingMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,14 +256,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00053" summary="feat(pom): Add Commons Lang library from Apache">
-      <option name="closed" value="true" />
-      <created>1689878627888</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1689878627889</updated>
-    </task>
     <task id="LOCAL-00054" summary="feat(ArraysHashing): Add Encode and Decode TinyURL method">
       <option name="closed" value="true" />
       <created>1689878683908</created>
@@ -447,7 +440,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692988049315</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="feat(TwoPointers): Add Rotate Array method">
+      <option name="closed" value="true" />
+      <created>1693243987345</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1693243987346</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,7 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(ArraysHashing): Add Sort Colors method" />
     <MESSAGE value="feat(pom): Add Commons Lang library from Apache" />
     <MESSAGE value="feat(ArraysHashing): Add Encode and Decode TinyURL method" />
     <MESSAGE value="feat(ArraysHashing): Add Best Time to Buy and Sell Stock II - Max Profit method" />
@@ -487,7 +487,8 @@
     <MESSAGE value="feat(TwoPointers): Add 3Sum method" />
     <MESSAGE value="feat(TwoPointers): Add Container With Most Water - Max Area method" />
     <MESSAGE value="feat(TwoPointers): Add Trapping Rain Water method" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(TwoPointers): Add Trapping Rain Water method" />
+    <MESSAGE value="feat(TwoPointers): Add Rotate Array method" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(TwoPointers): Add Rotate Array method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

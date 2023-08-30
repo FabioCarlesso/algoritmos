@@ -56,6 +56,7 @@ public class ArraysHashingMain {
         findRepeatedDnaSequencesMain();
         randomizedSetMain();
         firstMissingPositiveMain(); //melhorar legibilidade
+        checkPossibilityMain();
     }
 
     private static void isAnagramMain() {
@@ -496,7 +497,7 @@ public class ArraysHashingMain {
     }
 
     private static void checkSubarraySumMain() {
-        System.out.println("\n\nContinuous Subarray Sum\n");
+        System.out.println("\n\nContinuous Subarray Sum");
         int[] nums = {23,2,4,6,7};
         int k = 6;
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
@@ -514,7 +515,7 @@ public class ArraysHashingMain {
     }
 
     private static void findRepeatedDnaSequencesMain() {
-        System.out.println("\n\nRepeated DNA Sequences\n");
+        System.out.println("\n\nRepeated DNA Sequences");
         String dna = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
         System.out.println(ARRAY_TEXT + dna);
         System.out.println(RESULT_CASE_1 + ArraysHashing.findRepeatedDnaSequences(dna));
@@ -527,7 +528,7 @@ public class ArraysHashingMain {
     }
 
     private static void randomizedSetMain() {
-        System.out.println("\n\nInsert Delete GetRandom O(1)\n");
+        System.out.println("\n\nInsert Delete GetRandom O(1)");
         RandomizedSet randomizedSet = new RandomizedSet();
         System.out.println(RESULT_CASE_1);
         System.out.println(randomizedSet.insert(1));
@@ -542,7 +543,7 @@ public class ArraysHashingMain {
     }
 
     private static void firstMissingPositiveMain() {
-        System.out.println("\n\nFirst Missing Positive\n");
+        System.out.println("\n\nFirst Missing Positive");
         int[] nums = {1,2,0};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println(RESULT_CASE_1 + ArraysHashing.firstMissingPositive(nums));
@@ -552,6 +553,16 @@ public class ArraysHashingMain {
         nums = new int[]{7,8,9,11,12};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println(RESULT_CASE_3 + ArraysHashing.firstMissingPositive(nums));
+    }
+
+    private static void checkPossibilityMain() {
+        System.out.println("\n\nNon-decreasing Array");
+        int[] nums = {4,2,3};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_1 + ArraysHashing.checkPossibility(nums));
+        nums = new int[]{4,2,1};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_2 + ArraysHashing.checkPossibility(nums));
     }
 
 }
