@@ -21,5 +21,6 @@ public class Main {
         FordFulkersonMain.fordFulkersonMain();
         TwoPointersMain.twoPointersMain();
         ArraysHashingMain.arraysHashingMain();
+        StackMain.stackMain();
     }
 }
