@@ -1,7 +1,7 @@
 package com.fabiocarlesso.mainexecution;
 
+import com.fabiocarlesso.stack.MinStack;
 import com.fabiocarlesso.stack.StackFunctions;
-import com.fabiocarlesso.twopointers.TwoPointers;
 
 public class StackMain {
     private static final String ARRAY_TEXT = "Array: ";
@@ -15,6 +15,7 @@ public class StackMain {
     public static void stackMain() {
         System.out.println("\n\nStack");
         isValidParentheses();
+        minStack();
     }
 
     private static void isValidParentheses() {
@@ -28,6 +29,28 @@ public class StackMain {
         parentheses = "(]";
         System.out.println(ARRAY_TEXT + parentheses);
         System.out.println(RESULT_CASE_3 + StackFunctions.isValid(parentheses));
+    }
+
+    private static void minStack() {
+        System.out.println("\nMin Stack");
+
+        MinStack minStack = new MinStack();
+        minStack.push(-2);
+        minStack.push(0);
+        minStack.push(-3);
+        System.out.println(ARRAY_TEXT + minStack.toString());
+
+        int minStackResult1 = minStack.getMin();
+        System.out.println(RESULT_CASE_1 + minStackResult1);
+
+        minStack.pop();
+        System.out.println(ARRAY_TEXT + minStack.toString());
+
+        int minStackResult2 = minStack.top();
+        System.out.println(RESULT_CASE_2 + minStackResult2);
+
+        int minStackResult3 = minStack.getMin();
+        System.out.println(RESULT_CASE_3 + minStackResult3);
     }
 
 }
