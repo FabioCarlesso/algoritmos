@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(Stack): Add Min Stack Class">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(Stack): Add Generate Parentheses">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/stack/GenerateParenthesisStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/StackMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/StackMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/stack/StackFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/stack/StackFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,14 +255,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00058" summary="feat(ArraysHashing): Add Number of Pairs of Interchangeable Rectangles method">
-      <option name="closed" value="true" />
-      <created>1690376982393</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1690376982394</updated>
-    </task>
     <task id="LOCAL-00059" summary="fix(ArraysHasshing): Call for sortColors">
       <option name="closed" value="true" />
       <created>1690826597905</created>
@@ -447,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695818280981</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="feat(Stack): Add Evaluate Reverse Polish Notation">
+      <option name="closed" value="true" />
+      <created>1695930996190</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1695930996191</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,8 +462,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(ArraysHashing): Add Minimum Number of Swaps to Make the String Balanced method" />
-    <MESSAGE value="feat(ArraysHashing): Add Number of Pairs of Interchangeable Rectangles method" />
     <MESSAGE value="fix(ArraysHasshing): Call for sortColors" />
     <MESSAGE value="feat(ArraysHashing): Add Find All Anagrams in a String method" />
     <MESSAGE value="feat(ArraysHashing): Add Largest Number method" />
@@ -487,7 +485,9 @@
     <MESSAGE value="feat(Stack): Add Stack category" />
     <MESSAGE value="feat(Stack): Add Valid Parentheses method" />
     <MESSAGE value="feat(Stack): Add Min Stack Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(Stack): Add Min Stack Class" />
+    <MESSAGE value="feat(Stack): Add Evaluate Reverse Polish Notation" />
+    <MESSAGE value="feat(Stack): Add Generate Parentheses" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Stack): Add Generate Parentheses" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

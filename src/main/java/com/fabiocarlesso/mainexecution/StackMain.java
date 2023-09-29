@@ -1,5 +1,6 @@
 package com.fabiocarlesso.mainexecution;
 
+import com.fabiocarlesso.stack.GenerateParenthesisStack;
 import com.fabiocarlesso.stack.MinStack;
 import com.fabiocarlesso.stack.StackFunctions;
 
@@ -19,6 +20,7 @@ public class StackMain {
         isValidParentheses();
         minStack();
         evalRPN();
+        generateParenthesisStack();
     }
 
     private static void isValidParentheses() {
@@ -36,22 +38,17 @@ public class StackMain {
 
     private static void minStack() {
         System.out.println("\nMin Stack");
-
         MinStack minStack = new MinStack();
         minStack.push(-2);
         minStack.push(0);
         minStack.push(-3);
         System.out.println(ARRAY_TEXT + minStack.toString());
-
         int minStackResult1 = minStack.getMin();
         System.out.println(RESULT_CASE_1 + minStackResult1);
-
         minStack.pop();
         System.out.println(ARRAY_TEXT + minStack.toString());
-
         int minStackResult2 = minStack.top();
         System.out.println(RESULT_CASE_2 + minStackResult2);
-
         int minStackResult3 = minStack.getMin();
         System.out.println(RESULT_CASE_3 + minStackResult3);
     }
@@ -67,6 +64,17 @@ public class StackMain {
         tokens = new String[]{"10","6","9","3","+","-11","*","/","*","17","+","5","+"};
         System.out.println(ARRAY_TEXT + Arrays.toString(tokens));
         System.out.println(RESULT_CASE_3 + StackFunctions.evalRPN(tokens));
+    }
+
+    private static void generateParenthesisStack() {
+        System.out.println("\nGenerate Parentheses");
+        GenerateParenthesisStack parenthesis = new GenerateParenthesisStack();
+        int n = 3;
+        System.out.println(ARRAY_TEXT + n);
+        System.out.println(RESULT_CASE_1 + parenthesis.generateParenthesis(n));
+        n = 1;
+        System.out.println(ARRAY_TEXT + n);
+        System.out.println(RESULT_CASE_2 + parenthesis.generateParenthesis(n));
     }
 
 }
