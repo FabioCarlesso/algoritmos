@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(Stack): Add Generate Parentheses">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/stack/GenerateParenthesisStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/StackMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/StackMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/stack/StackFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/stack/StackFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,14 +255,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00059" summary="fix(ArraysHasshing): Call for sortColors">
-      <option name="closed" value="true" />
-      <created>1690826597905</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1690826597906</updated>
-    </task>
     <task id="LOCAL-00060" summary="feat(ArraysHashing): Add Find All Anagrams in a String method">
       <option name="closed" value="true" />
       <created>1690827221085</created>
@@ -447,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695930996191</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="feat(Stack): Add Generate Parentheses">
+      <option name="closed" value="true" />
+      <created>1695997536392</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1695997536395</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

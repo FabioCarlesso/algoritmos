@@ -21,6 +21,7 @@ public class StackMain {
         minStack();
         evalRPN();
         generateParenthesisStack();
+        dailyTemperaturesMain();
     }
 
     private static void isValidParentheses() {
@@ -75,6 +76,19 @@ public class StackMain {
         n = 1;
         System.out.println(ARRAY_TEXT + n);
         System.out.println(RESULT_CASE_2 + parenthesis.generateParenthesis(n));
+    }
+
+    private static void dailyTemperaturesMain() {
+        System.out.println("\nDaily Temperatures");
+        int[] temperatures = new int[]{73,74,75,71,69,72,76,73};
+        System.out.println(ARRAY_TEXT + Arrays.toString(temperatures));
+        System.out.println(RESULT_CASE_1 + Arrays.toString(StackFunctions.dailyTemperatures(temperatures)));
+        temperatures = new int[]{30,40,50,60};
+        System.out.println(ARRAY_TEXT + Arrays.toString(temperatures));
+        System.out.println(RESULT_CASE_2 + Arrays.toString(StackFunctions.dailyTemperatures(temperatures)));
+        temperatures = new int[]{30,60,90};
+        System.out.println(ARRAY_TEXT + Arrays.toString(temperatures));
+        System.out.println(RESULT_CASE_3 + Arrays.toString(StackFunctions.dailyTemperatures(temperatures)));
     }
 
 }
