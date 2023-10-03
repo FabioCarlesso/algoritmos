@@ -22,6 +22,7 @@ public class StackMain {
         evalRPN();
         generateParenthesisStack();
         dailyTemperaturesMain();
+        carFleetMain();
     }
 
     private static void isValidParentheses() {
@@ -89,6 +90,37 @@ public class StackMain {
         temperatures = new int[]{30,60,90};
         System.out.println(ARRAY_TEXT + Arrays.toString(temperatures));
         System.out.println(RESULT_CASE_3 + Arrays.toString(StackFunctions.dailyTemperatures(temperatures)));
+    }
+
+    private static void carFleetMain() {
+        System.out.println("\nCar Fleet");
+        String targetString = "Target: ";
+        String positionString = "Position: ";
+        String speedString = "Speed: ";
+
+        int target = 12;
+        int[] position = new int[]{10,8,0,5,3};
+        int[] speed = new int[]{2,4,1,1,3};
+        System.out.println(targetString + target);
+        System.out.println(positionString + Arrays.toString(position));
+        System.out.println(speedString + Arrays.toString(speed));
+        System.out.println(RESULT_CASE_1 + StackFunctions.carFleet(target, position, speed));
+
+        target = 10;
+        position = new int[]{3};
+        speed = new int[]{3};
+        System.out.println(targetString + target);
+        System.out.println(positionString + Arrays.toString(position));
+        System.out.println(speedString + Arrays.toString(speed));
+        System.out.println(RESULT_CASE_2 + StackFunctions.carFleet(target, position, speed));
+
+        target = 100;
+        position = new int[]{0,2,4};
+        speed = new int[]{4,2,1};
+        System.out.println(targetString + target);
+        System.out.println(positionString + Arrays.toString(position));
+        System.out.println(speedString + Arrays.toString(speed));
+        System.out.println(RESULT_CASE_3 + StackFunctions.carFleet(target, position, speed));
     }
 
 }
