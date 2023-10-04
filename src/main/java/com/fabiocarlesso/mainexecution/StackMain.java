@@ -23,6 +23,7 @@ public class StackMain {
         generateParenthesisStack();
         dailyTemperaturesMain();
         carFleetMain();
+        largestRectangleAreaMain();
     }
 
     private static void isValidParentheses() {
@@ -121,6 +122,19 @@ public class StackMain {
         System.out.println(positionString + Arrays.toString(position));
         System.out.println(speedString + Arrays.toString(speed));
         System.out.println(RESULT_CASE_3 + StackFunctions.carFleet(target, position, speed));
+    }
+
+    private static void largestRectangleAreaMain() {
+        System.out.println("\nLargest Rectangle in Histogram");
+        int[] heights = new int[]{2,1,5,6,2,3};
+        System.out.println(ARRAY_TEXT + Arrays.toString(heights));
+        System.out.println(RESULT_CASE_1 + StackFunctions.largestRectangleArea(heights));
+        heights = new int[]{2,4};
+        System.out.println(ARRAY_TEXT + Arrays.toString(heights));
+        System.out.println(RESULT_CASE_2 + StackFunctions.largestRectangleArea(heights));
+        heights = new int[]{30,60,90};
+        System.out.println(ARRAY_TEXT + Arrays.toString(heights));
+        System.out.println(RESULT_CASE_3 + StackFunctions.largestRectangleArea(heights));
     }
 
 }
