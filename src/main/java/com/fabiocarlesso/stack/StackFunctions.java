@@ -98,10 +98,10 @@ public class StackFunctions {
         for(int i=0;i<heights.length;i++){
             int curHt =heights[i];
             start = i;
-            while(!stack.isEmpty() && stack.peek().getValue() > curHt){
+            while(!stack.isEmpty() && stack.peek().value() > curHt){
                 Pair<Integer,Integer> pair = stack.pop();
-                int index = pair.getKey();
-                int h = pair.getValue();
+                int index = pair.key();
+                int h = pair.value();
                 area = Math.max(area, h * (i - index));
                 start = index;
             }
@@ -110,8 +110,8 @@ public class StackFunctions {
 
         while(!stack.isEmpty()){
             Pair<Integer,Integer> pair = stack.pop();
-            int index = pair.getKey();
-            int h = pair.getValue();
+            int index = pair.key();
+            int h = pair.value();
             area = Math.max(area, h * (n - index));
         }
         return area;

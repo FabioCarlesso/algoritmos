@@ -45,11 +45,11 @@ public class StackMain {
         minStack.push(-2);
         minStack.push(0);
         minStack.push(-3);
-        System.out.println(ARRAY_TEXT + minStack.toString());
+        System.out.println(ARRAY_TEXT + minStack);
         int minStackResult1 = minStack.getMin();
         System.out.println(RESULT_CASE_1 + minStackResult1);
         minStack.pop();
-        System.out.println(ARRAY_TEXT + minStack.toString());
+        System.out.println(ARRAY_TEXT + minStack);
         int minStackResult2 = minStack.top();
         System.out.println(RESULT_CASE_2 + minStackResult2);
         int minStackResult3 = minStack.getMin();
