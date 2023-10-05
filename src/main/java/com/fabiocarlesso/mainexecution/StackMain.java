@@ -24,6 +24,7 @@ public class StackMain {
         dailyTemperaturesMain();
         carFleetMain();
         largestRectangleAreaMain();
+        calPointsMain();
     }
 
     private static void isValidParentheses() {
@@ -135,6 +136,19 @@ public class StackMain {
         heights = new int[]{30,60,90};
         System.out.println(ARRAY_TEXT + Arrays.toString(heights));
         System.out.println(RESULT_CASE_3 + StackFunctions.largestRectangleArea(heights));
+    }
+
+    private static void calPointsMain() {
+        System.out.println("\nBaseball Game");
+        String[] ops = new String[]{"5","2","C","D","+"};
+        System.out.println(ARRAY_TEXT + Arrays.toString(ops));
+        System.out.println(RESULT_CASE_1 + StackFunctions.calPoints(ops));
+        ops = new String[]{"5","-2","4","C","D","9","+","+"};
+        System.out.println(ARRAY_TEXT + Arrays.toString(ops));
+        System.out.println(RESULT_CASE_2 + StackFunctions.calPoints(ops));
+        ops = new String[]{"1","C"};
+        System.out.println(ARRAY_TEXT + Arrays.toString(ops));
+        System.out.println(RESULT_CASE_3 + StackFunctions.calPoints(ops));
     }
 
 }
