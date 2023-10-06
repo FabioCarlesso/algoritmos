@@ -22,5 +22,6 @@ public class Main {
         TwoPointersMain.twoPointersMain();
         ArraysHashingMain.arraysHashingMain();
         StackMain.stackMain();
+        SlidingWindowMain.slidingWindowMain();
     }
 }
