@@ -15,6 +15,7 @@ public class SlidingWindowMain {
     public static void slidingWindowMain(){
         System.out.println("\n\nSliding Window");
         maxProfitMain();
+        lengthOfLongestSubstringMain();
     }
 
     private static void maxProfitMain() {
@@ -25,6 +26,19 @@ public class SlidingWindowMain {
         prices = new int[]{7,6,4,3,1};
         System.out.println(ARRAY_TEXT + Arrays.toString(prices));
         System.out.println(RESULT_CASE_2 + SlidingWindow.maxProfit(prices));
+    }
+
+    private static void lengthOfLongestSubstringMain() {
+        System.out.println("\nLongest Substring Without Repeating Characters");
+        String input = "abcabcbb";
+        System.out.println(ARRAY_TEXT + input);
+        System.out.println(RESULT_CASE_1 + SlidingWindow.lengthOfLongestSubstring(input));
+        input = "bbbbb";
+        System.out.println(ARRAY_TEXT + input);
+        System.out.println(RESULT_CASE_2 + SlidingWindow.lengthOfLongestSubstring(input));
+        input = "pwwkew";
+        System.out.println(ARRAY_TEXT + input);
+        System.out.println(RESULT_CASE_3 + SlidingWindow.lengthOfLongestSubstring(input));
     }
 
 }
