@@ -16,6 +16,7 @@ public class SlidingWindowMain {
         System.out.println("\n\nSliding Window");
         maxProfitMain();
         lengthOfLongestSubstringMain();
+        characterReplacementMain();
     }
 
     private static void maxProfitMain() {
@@ -39,6 +40,20 @@ public class SlidingWindowMain {
         input = "pwwkew";
         System.out.println(ARRAY_TEXT + input);
         System.out.println(RESULT_CASE_3 + SlidingWindow.lengthOfLongestSubstring(input));
+    }
+
+    private static void characterReplacementMain() {
+        System.out.println("\nLongest Repeating Character Replacement");
+        String input = "ABAB";
+        int k = 2;
+        System.out.println(ARRAY_TEXT + input);
+        System.out.println("k: " + k);
+        System.out.println(RESULT_CASE_1 + SlidingWindow.characterReplacement(input, k));
+        input = "AABABBA";
+        k = 1;
+        System.out.println(ARRAY_TEXT + input);
+        System.out.println("k: " + k);
+        System.out.println(RESULT_CASE_2 + SlidingWindow.characterReplacement(input, k));
     }
 
 }
