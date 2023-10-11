@@ -17,6 +17,7 @@ public class SlidingWindowMain {
         maxProfitMain();
         lengthOfLongestSubstringMain();
         characterReplacementMain();
+        checkInclusionMain();
     }
 
     private static void maxProfitMain() {
@@ -54,6 +55,20 @@ public class SlidingWindowMain {
         System.out.println(ARRAY_TEXT + input);
         System.out.println("k: " + k);
         System.out.println(RESULT_CASE_2 + SlidingWindow.characterReplacement(input, k));
+    }
+
+    private static void checkInclusionMain() {
+        System.out.println("\nPermutation in String");
+        String input = "ab";
+        String sentence = "eidbaooo";
+        System.out.println(ARRAY_TEXT + input);
+        System.out.println("Sentence: " + sentence);
+        System.out.println(RESULT_CASE_1 + SlidingWindow.checkInclusion(input, sentence));
+        input = "ab";
+        sentence = "eidboaoo";
+        System.out.println(ARRAY_TEXT + input);
+        System.out.println("Sentence: " + sentence);
+        System.out.println(RESULT_CASE_2 + SlidingWindow.checkInclusion(input, sentence));
     }
 
 }

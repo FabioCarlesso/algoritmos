@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="refactor(SlidingWindow): Add Longest Substring Without Repeating Characters">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="refactor(SlidingWindow): Add Longest Repeating Character Replacement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/SlidingWindowMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/SlidingWindowMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/slidingwindow/SlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/slidingwindow/SlidingWindow.java" afterDir="false" />
@@ -255,14 +255,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00068" summary="feat(TwoPointers): Add Minimum Difference Between Highest and Lowest of K Scores method.">
-      <option name="closed" value="true" />
-      <created>1692121839632</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1692121839633</updated>
-    </task>
     <task id="LOCAL-00069" summary="feat(TwoPointers): Add Reverse String method.">
       <option name="closed" value="true" />
       <created>1692196058787</created>
@@ -447,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696858335521</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="refactor(SlidingWindow): Add Longest Repeating Character Replacement">
+      <option name="closed" value="true" />
+      <created>1696941195202</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1696941195203</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,7 +462,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(TwoPointers): Add Valid Palindrome II method." />
     <MESSAGE value="feat(TwoPointers): Add Minimum Difference Between Highest and Lowest of K Scores method." />
     <MESSAGE value="feat(TwoPointers): Add Reverse String method." />
     <MESSAGE value="feat(TwoPointers): Add Merge Sorted Array method." />
@@ -487,7 +486,8 @@
     <MESSAGE value="refactor(SlidingWindow): Create Sliding Window utility classes" />
     <MESSAGE value="refactor(SlidingWindow): Add Best Time to Buy and Sell Stock" />
     <MESSAGE value="refactor(SlidingWindow): Add Longest Substring Without Repeating Characters" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor(SlidingWindow): Add Longest Substring Without Repeating Characters" />
+    <MESSAGE value="refactor(SlidingWindow): Add Longest Repeating Character Replacement" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(SlidingWindow): Add Longest Repeating Character Replacement" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,6 +1,7 @@
 package com.fabiocarlesso.slidingwindow;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class SlidingWindow {
@@ -55,6 +56,25 @@ public class SlidingWindow {
             ans = Math.max(ans, j - i + 1);
         }
         return ans;
+    }
+
+    public static boolean checkInclusion(String s1, String s2) {
+        int n = s1.length();
+        int[] freq = new int[26];
+        int m = s2.length();
+        for (int i = 0; i < n; i++) {
+            freq[s1.charAt(i) - 'a']++;
+        }
+        int[] freq2 = new int[26];
+        for (int i = 0; i < m; i++) {
+            freq2[s2.charAt(i) - 'a']++;
+            if (i >= n) {
+                freq2[s2.charAt(i - n) - 'a']--;
+            }
+            if (Arrays.equals(freq, freq2))
+                return true;
+        }
+        return false;
     }
 
 }
