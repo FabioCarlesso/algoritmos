@@ -18,6 +18,7 @@ public class SlidingWindowMain {
         lengthOfLongestSubstringMain();
         characterReplacementMain();
         checkInclusionMain();
+        minWindowMain();
     }
 
     private static void maxProfitMain() {
@@ -69,6 +70,26 @@ public class SlidingWindowMain {
         System.out.println(ARRAY_TEXT + input);
         System.out.println("Sentence: " + sentence);
         System.out.println(RESULT_CASE_2 + SlidingWindow.checkInclusion(input, sentence));
+    }
+
+    private static void minWindowMain() {
+        System.out.println("\nMinimum Window Substring");
+        String input = "ADOBECODEBANC";
+        String substringToCheck = "ABC";
+        System.out.println(ARRAY_TEXT + input);
+        String substringText = "Substring to check: ";
+        System.out.println(substringText + substringToCheck);
+        System.out.println(RESULT_CASE_1 + SlidingWindow.minWindow(input, substringToCheck));
+        input = "a";
+        substringToCheck = "a";
+        System.out.println(ARRAY_TEXT + input);
+        System.out.println(substringText + substringToCheck);
+        System.out.println(RESULT_CASE_2 + SlidingWindow.minWindow(input, substringToCheck));
+        input = "a";
+        substringToCheck = "aa";
+        System.out.println(ARRAY_TEXT + input);
+        System.out.println(substringText + substringToCheck);
+        System.out.println(RESULT_CASE_3 + SlidingWindow.minWindow(input, substringToCheck));
     }
 
 }
