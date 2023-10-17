@@ -19,6 +19,7 @@ public class SlidingWindowMain {
         characterReplacementMain();
         checkInclusionMain();
         minWindowMain();
+        maxSlidingWindowMain();
     }
 
     private static void maxProfitMain() {
@@ -90,6 +91,19 @@ public class SlidingWindowMain {
         System.out.println(ARRAY_TEXT + input);
         System.out.println(substringText + substringToCheck);
         System.out.println(RESULT_CASE_3 + SlidingWindow.minWindow(input, substringToCheck));
+    }
+
+    private static void maxSlidingWindowMain() {
+        System.out.println("\nSliding Window Maximum");
+        int[] nums = new int[]{1,3,-1,-3,5,3,6,7};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        int k = 3;
+        System.out.println("K: " + k);
+        System.out.println(RESULT_CASE_1 + Arrays.toString(SlidingWindow.maxSlidingWindow(nums, k)));
+        nums = new int[]{1};
+        k = 1;
+        System.out.println("K: " + k);
+        System.out.println(RESULT_CASE_2 + Arrays.toString(SlidingWindow.maxSlidingWindow(nums, k)));
     }
 
 }
