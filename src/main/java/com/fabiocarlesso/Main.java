@@ -23,5 +23,6 @@ public class Main {
         ArraysHashingMain.arraysHashingMain();
         StackMain.stackMain();
         SlidingWindowMain.slidingWindowMain();
+        BinaryTreeSearchMain.binaryTreeSearchMain();
     }
 }

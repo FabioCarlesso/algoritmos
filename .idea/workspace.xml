@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="refactor(SlidingWindow): Add Minimum Window Substring">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="refactor(SlidingWindow): Add Sliding Window Maximum">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/binarysearch/BinaryTreeSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/SlidingWindowMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/SlidingWindowMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/slidingwindow/SlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/slidingwindow/SlidingWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,14 +254,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00071" summary="feat(TwoPointers): Add Move Zeroes method.">
-      <option name="closed" value="true" />
-      <created>1692383606513</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1692383606514</updated>
-    </task>
     <task id="LOCAL-00072" summary="feat(TwoPointers): Add Remove Duplicates from Sorted Array method - count duplicated.">
       <option name="closed" value="true" />
       <created>1692639208167</created>
@@ -447,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697466328265</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="refactor(SlidingWindow): Add Sliding Window Maximum">
+      <option name="closed" value="true" />
+      <created>1697544767288</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1697544767290</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,7 +461,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(TwoPointers): Add Merge Sorted Array method." />
     <MESSAGE value="feat(TwoPointers): Add Move Zeroes method." />
     <MESSAGE value="feat(TwoPointers): Add Remove Duplicates from Sorted Array method - count duplicated." />
     <MESSAGE value="feat(TwoPointers): Add Two Sum II - Input Array Is Sorted method" />
@@ -487,7 +485,8 @@
     <MESSAGE value="refactor(SlidingWindow): Add Longest Repeating Character Replacement" />
     <MESSAGE value="refactor(SlidingWindow): Add Permutation in String" />
     <MESSAGE value="refactor(SlidingWindow): Add Minimum Window Substring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor(SlidingWindow): Add Minimum Window Substring" />
+    <MESSAGE value="refactor(SlidingWindow): Add Sliding Window Maximum" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(SlidingWindow): Add Sliding Window Maximum" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
