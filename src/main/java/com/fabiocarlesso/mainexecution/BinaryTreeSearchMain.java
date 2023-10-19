@@ -15,6 +15,7 @@ public class BinaryTreeSearchMain {
     public static void binaryTreeSearchMain(){
         System.out.println("\n\nBinary Tree Search");
         searchMain();
+        searchMatrixMain();
     }
     private static void searchMain() {
         System.out.println("\nBinary Search");
@@ -30,5 +31,18 @@ public class BinaryTreeSearchMain {
         target = 5;
         System.out.println(targetString + target);
         System.out.println(RESULT_CASE_3 + BinaryTreeSearch.search(nums, target));
+    }
+    private static void searchMatrixMain() {
+        System.out.println("\nSearch a 2D Matrix");
+        int[][] nums = new int[][]{{1,3,5,7},{10,11,16,20},{23,30,34,60}};
+        int target = 3;
+        String targetString = "Target: ";
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(targetString + target);
+        System.out.println(RESULT_CASE_1 + BinaryTreeSearch.searchMatrix(nums, target));
+        nums = new int[][]{{1,3,5,7},{10,11,16,20},{23,30,34,60}};
+        target = 2;
+        System.out.println(targetString + target);
+        System.out.println(RESULT_CASE_2 + BinaryTreeSearch.searchMatrix(nums, target));
     }
 }
