@@ -1,5 +1,7 @@
 package com.fabiocarlesso.util;
 
+import java.util.Arrays;
+
 public class Utils {
     private Utils() {
         throw new IllegalStateException("Utility class");
@@ -33,5 +35,8 @@ public class Utils {
         int temp = array[i];
         array[i] = array[j];
         array[j] = temp;
+    }
+    public static void printMatrix(int[][] matrix) {
+        Arrays.stream(matrix).map(Arrays::toString).forEach(System.out::println);
     }
 }

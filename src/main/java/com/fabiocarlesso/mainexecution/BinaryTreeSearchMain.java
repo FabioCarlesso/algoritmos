@@ -1,6 +1,7 @@
 package com.fabiocarlesso.mainexecution;
 
 import com.fabiocarlesso.binarysearch.BinaryTreeSearch;
+import com.fabiocarlesso.util.Utils;
 
 import java.util.Arrays;
 
@@ -37,11 +38,13 @@ public class BinaryTreeSearchMain {
         int[][] nums = new int[][]{{1,3,5,7},{10,11,16,20},{23,30,34,60}};
         int target = 3;
         String targetString = "Target: ";
-        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(ARRAY_TEXT);
+        Utils.printMatrix(nums);
         System.out.println(targetString + target);
         System.out.println(RESULT_CASE_1 + BinaryTreeSearch.searchMatrix(nums, target));
-        nums = new int[][]{{1,3,5,7},{10,11,16,20},{23,30,34,60}};
         target = 2;
+        System.out.println(ARRAY_TEXT);
+        Utils.printMatrix(nums);
         System.out.println(targetString + target);
         System.out.println(RESULT_CASE_2 + BinaryTreeSearch.searchMatrix(nums, target));
     }
