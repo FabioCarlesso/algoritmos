@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(BinaryTreeSearch): Add Search a 2D Matrix">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(BinaryTreeSearch): Add print 2D Matrix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/binarysearch/BinaryTreeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/binarysearch/BinaryTreeSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BinaryTreeSearchMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BinaryTreeSearchMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/util/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,14 +255,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00075" summary="feat(TwoPointers): Add Container With Most Water - Max Area method">
-      <option name="closed" value="true" />
-      <created>1692896233129</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1692896233130</updated>
-    </task>
     <task id="LOCAL-00076" summary="feat(TwoPointers): Add Trapping Rain Water method">
       <option name="closed" value="true" />
       <created>1692988049314</created>
@@ -447,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697717799270</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="feat(BinaryTreeSearch): Add print 2D Matrix">
+      <option name="closed" value="true" />
+      <created>1697719084748</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1697719084748</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,7 +462,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(TwoPointers): Add 3Sum method" />
     <MESSAGE value="feat(TwoPointers): Add Container With Most Water - Max Area method" />
     <MESSAGE value="feat(TwoPointers): Add Trapping Rain Water method" />
     <MESSAGE value="feat(TwoPointers): Add Rotate Array method" />
@@ -487,7 +486,8 @@
     <MESSAGE value="feat(BinaryTreeSearchMain): Create Binary Tree Search utility classes" />
     <MESSAGE value="feat(BinaryTreeSearch): Add Binary Search" />
     <MESSAGE value="feat(BinaryTreeSearch): Add Search a 2D Matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(BinaryTreeSearch): Add Search a 2D Matrix" />
+    <MESSAGE value="feat(BinaryTreeSearch): Add print 2D Matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(BinaryTreeSearch): Add print 2D Matrix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
