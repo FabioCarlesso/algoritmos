@@ -19,6 +19,7 @@ public class BinaryTreeSearchMain {
         searchMain();
         searchMatrixMain();
         minEatingSpeedMain();
+        findMinMain();
     }
     private static void searchMain() {
         System.out.println("\nBinary Search");
@@ -57,10 +58,24 @@ public class BinaryTreeSearchMain {
         System.out.println(RESULT_CASE_1 + BinaryTreeSearch.minEatingSpeed(piles, target));
         piles = new int[]{30,11,23,4,20};
         target = 5;
+        System.out.println(ARRAY_TEXT + Arrays.toString(piles));
         System.out.println(TARGET + target);
-        System.out.println(RESULT_CASE_3 + BinaryTreeSearch.minEatingSpeed(piles, target));
+        System.out.println(RESULT_CASE_2 + BinaryTreeSearch.minEatingSpeed(piles, target));
         target = 6;
+        System.out.println(ARRAY_TEXT + Arrays.toString(piles));
         System.out.println(TARGET + target);
         System.out.println(RESULT_CASE_3 + BinaryTreeSearch.minEatingSpeed(piles, target));
+    }
+    private static void findMinMain() {
+        System.out.println("\nFind Minimum in Rotated Sorted Array");
+        int[] nums = new int[]{3,4,5,1,2};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_1 + BinaryTreeSearch.findMin(nums));
+        nums = new int[]{4,5,6,7,0,1,2};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_2 + BinaryTreeSearch.findMin(nums));
+        nums = new int[]{11,13,15,17};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(RESULT_CASE_3 + BinaryTreeSearch.findMin(nums));
     }
 }
