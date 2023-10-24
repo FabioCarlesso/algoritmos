@@ -20,6 +20,7 @@ public class BinaryTreeSearchMain {
         searchMatrixMain();
         minEatingSpeedMain();
         findMinMain();
+        searchRotatedMain();
     }
     private static void searchMain() {
         System.out.println("\nBinary Search");
@@ -77,5 +78,22 @@ public class BinaryTreeSearchMain {
         nums = new int[]{11,13,15,17};
         System.out.println(ARRAY_TEXT + Arrays.toString(nums));
         System.out.println(RESULT_CASE_3 + BinaryTreeSearch.findMin(nums));
+    }
+    private static void searchRotatedMain() {
+        System.out.println("\nSearch in Rotated Sorted Array");
+        int[] nums = new int[]{4,5,6,7,0,1,2};
+        int target = 0;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(TARGET + target);
+        System.out.println(RESULT_CASE_1 + BinaryTreeSearch.searchRotated(nums, target));
+        target = 3;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(TARGET + target);
+        System.out.println(RESULT_CASE_2 + BinaryTreeSearch.searchRotated(nums, target));
+        nums = new int[]{1};
+        target = -1;
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(TARGET + target);
+        System.out.println(RESULT_CASE_3 + BinaryTreeSearch.searchRotated(nums, target));
     }
 }
