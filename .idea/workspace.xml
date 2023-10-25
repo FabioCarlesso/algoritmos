@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(BinaryTreeSearch): Add Search in Rotated Sorted Array">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/binarysearch/TimeMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/binarysearch/BinaryTreeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/binarysearch/BinaryTreeSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BinaryTreeSearchMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BinaryTreeSearchMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -255,14 +255,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00078" summary="feat(ArraysHashing): Add Non-decreasing Array">
-      <option name="closed" value="true" />
-      <created>1693396853985</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1693396853985</updated>
-    </task>
     <task id="LOCAL-00079" summary="feat(Stack): Add Stack category">
       <option name="closed" value="true" />
       <created>1695738218817</created>
@@ -447,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698070298121</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="feat(BinaryTreeSearch): Add Search in Rotated Sorted Array">
+      <option name="closed" value="true" />
+      <created>1698174882923</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1698174882924</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
