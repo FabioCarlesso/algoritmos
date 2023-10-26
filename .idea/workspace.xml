@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(BinaryTreeSearch): Add Search in Rotated Sorted Array">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/binarysearch/TimeMap.java" afterDir="false" />
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(BinaryTreeSearch): Add Time Based Key-Value Store">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/binarysearch/BinaryTreeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/binarysearch/BinaryTreeSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BinaryTreeSearchMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BinaryTreeSearchMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -255,14 +255,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00079" summary="feat(Stack): Add Stack category">
-      <option name="closed" value="true" />
-      <created>1695738218817</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1695738218817</updated>
-    </task>
     <task id="LOCAL-00080" summary="feat(Stack): Add Valid Parentheses method">
       <option name="closed" value="true" />
       <created>1695738885759</created>
@@ -447,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698174882924</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="feat(BinaryTreeSearch): Add Time Based Key-Value Store">
+      <option name="closed" value="true" />
+      <created>1698241187654</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1698241187654</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,7 +462,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(ArraysHashing): Add Non-decreasing Array" />
     <MESSAGE value="feat(Stack): Add Stack category" />
     <MESSAGE value="feat(Stack): Add Valid Parentheses method" />
     <MESSAGE value="feat(Stack): Add Min Stack Class" />
@@ -487,7 +486,8 @@
     <MESSAGE value="feat(BinaryTreeSearch): Add Koko Eating Bananas" />
     <MESSAGE value="feat(BinaryTreeSearch): Add Find Minimum in Rotated Sorted Array" />
     <MESSAGE value="feat(BinaryTreeSearch): Add Search in Rotated Sorted Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(BinaryTreeSearch): Add Search in Rotated Sorted Array" />
+    <MESSAGE value="feat(BinaryTreeSearch): Add Time Based Key-Value Store" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(BinaryTreeSearch): Add Time Based Key-Value Store" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -23,6 +23,7 @@ public class BinaryTreeSearchMain {
         findMinMain();
         searchRotatedMain();
         timeMapMain();
+        findMedianSortedArraysMain();
     }
     private static void searchMain() {
         System.out.println("\nBinary Search");
@@ -111,5 +112,23 @@ public class BinaryTreeSearchMain {
         System.out.println(RESULT_CASE_1 + timeMap.get("foo", 4));
         // return "bar2"
         System.out.println(RESULT_CASE_1 + timeMap.get("foo", 5));
+    }
+    private static void findMedianSortedArraysMain() {
+        System.out.println("\nMedian of Two Sorted Arrays");
+        int[] nums = new int[]{1,3};
+        int[] nums2 = new int[]{2};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
+        System.out.println(RESULT_CASE_1 + BinaryTreeSearch.findMedianSortedArrays(nums, nums2));
+        nums = new int[]{1,2};
+        nums2 = new int[]{3,4};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
+        System.out.println(RESULT_CASE_2 + BinaryTreeSearch.findMedianSortedArrays(nums, nums2));
+        nums = new int[]{1,3,5,9,10};
+        nums2 = new int[]{2,4,6,8,9,12,25};
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums));
+        System.out.println(ARRAY_TEXT + Arrays.toString(nums2));
+        System.out.println(RESULT_CASE_3 + BinaryTreeSearch.findMedianSortedArrays(nums, nums2));
     }
 }
