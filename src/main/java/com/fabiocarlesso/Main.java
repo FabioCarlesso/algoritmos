@@ -24,5 +24,6 @@ public class Main {
         StackMain.stackMain();
         SlidingWindowMain.slidingWindowMain();
         BinaryTreeSearchMain.binaryTreeSearchMain();
+        LinkedListMain.linkedListMain();
     }
 }

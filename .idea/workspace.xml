@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(BinaryTreeSearch): Add Time Based Key-Value Store">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(BinaryTreeSearch): Add Median of Two Sorted Arrays">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/linkedlist/LinkedListFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/linkedlist/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/LinkedListMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/binarysearch/BinaryTreeSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/binarysearch/BinaryTreeSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BinaryTreeSearchMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/BinaryTreeSearchMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.fabiocarlesso.linkedlist" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fabiocarlesso.Main" />
@@ -255,14 +262,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00080" summary="feat(Stack): Add Valid Parentheses method">
-      <option name="closed" value="true" />
-      <created>1695738885759</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1695738885759</updated>
-    </task>
     <task id="LOCAL-00081" summary="feat(Stack): Add Min Stack Class">
       <option name="closed" value="true" />
       <created>1695818280980</created>
@@ -447,7 +446,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698241187654</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="feat(BinaryTreeSearch): Add Median of Two Sorted Arrays">
+      <option name="closed" value="true" />
+      <created>1698326735154</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1698326735154</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,7 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(Stack): Add Stack category" />
     <MESSAGE value="feat(Stack): Add Valid Parentheses method" />
     <MESSAGE value="feat(Stack): Add Min Stack Class" />
     <MESSAGE value="feat(Stack): Add Evaluate Reverse Polish Notation" />
@@ -487,7 +493,8 @@
     <MESSAGE value="feat(BinaryTreeSearch): Add Find Minimum in Rotated Sorted Array" />
     <MESSAGE value="feat(BinaryTreeSearch): Add Search in Rotated Sorted Array" />
     <MESSAGE value="feat(BinaryTreeSearch): Add Time Based Key-Value Store" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(BinaryTreeSearch): Add Time Based Key-Value Store" />
+    <MESSAGE value="feat(BinaryTreeSearch): Add Median of Two Sorted Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(BinaryTreeSearch): Add Median of Two Sorted Arrays" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
