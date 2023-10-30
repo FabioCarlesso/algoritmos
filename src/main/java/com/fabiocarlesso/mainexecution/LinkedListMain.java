@@ -4,7 +4,6 @@ import com.fabiocarlesso.linkedlist.LinkedListFunctions;
 import com.fabiocarlesso.linkedlist.ListNode;
 
 public class LinkedListMain {
-    private static final String ARRAY_TEXT = "Array: ";
     public static final String RESULT_CASE_1 = "Result case 1: ";
     public static final String RESULT_CASE_2 = "Result case 2: ";
     public static final String RESULT_CASE_3 = "Result case 3: ";
@@ -15,6 +14,7 @@ public class LinkedListMain {
     public static void linkedListMain(){
         System.out.println("\n\nLinked List");
         reverseListMain();
+        mergeTwoListsMain();
     }
     private static void reverseListMain() {
         System.out.println("\nReverse Linked List");
@@ -46,5 +46,53 @@ public class LinkedListMain {
         ListNode listReverse3 = LinkedListFunctions.reverseList(list3);
         System.out.println(stringReverse);
         list.printList(listReverse3);
+    }
+    private static void mergeTwoListsMain() {
+        System.out.println("\nMerge Two Sorted Lists");
+        ListNode list = new ListNode(1);
+        list.next = new ListNode(2);
+        list.next.next = new ListNode(4);
+
+        ListNode list2 = new ListNode(1);
+        list2.next = new ListNode(3);
+        list2.next.next = new ListNode(3);
+
+        System.out.println("\n"+RESULT_CASE_1);
+        String stringList = "List: ";
+        System.out.println(stringList);
+        list.printList(list);
+        System.out.println("\n"+stringList);
+        list.printList(list2);
+
+        ListNode listMerge = LinkedListFunctions.mergeTwoLists(list, list2);
+        String stringListMerge = "\nMerge: ";
+        System.out.println(stringListMerge);
+        list.printList(listMerge);
+
+        System.out.println("\n"+RESULT_CASE_2);
+        list = new ListNode();
+        list2 = new ListNode();
+
+        System.out.println(stringList);
+        list.printList(list);
+        System.out.println("\n"+stringList);
+        list.printList(list2);
+
+        ListNode listMerge2 = LinkedListFunctions.mergeTwoLists(list, list2);
+        System.out.println(stringListMerge);
+        list.printList(listMerge2);
+
+        System.out.println("\n"+RESULT_CASE_3);
+        list = new ListNode();
+        list2 = new ListNode(0);
+
+        System.out.println(stringList);
+        list.printList(list);
+        System.out.println("\n"+stringList);
+        list.printList(list2);
+
+        ListNode listMerge3 = LinkedListFunctions.mergeTwoLists(list, list2);
+        System.out.println(stringListMerge);
+        list.printList(listMerge3);
     }
 }
