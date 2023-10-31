@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(LinkedList): Add Merge Two Sorted Lists">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(LinkedList): Add Reorder List">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/linkedlist/LinkedListFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/linkedlist/LinkedListFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/linkedlist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/linkedlist/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/LinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/LinkedListMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -260,14 +261,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00082" summary="feat(Stack): Add Evaluate Reverse Polish Notation">
-      <option name="closed" value="true" />
-      <created>1695930996190</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1695930996191</updated>
-    </task>
     <task id="LOCAL-00083" summary="feat(Stack): Add Generate Parentheses">
       <option name="closed" value="true" />
       <created>1695997536392</created>
@@ -452,7 +445,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698431425596</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="feat(LinkedList): Add Merge Two Sorted Lists">
+      <option name="closed" value="true" />
+      <created>1698689657435</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1698689657436</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,7 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(Stack): Add Evaluate Reverse Polish Notation" />
     <MESSAGE value="feat(Stack): Add Generate Parentheses" />
     <MESSAGE value="feat(Stack): Add Daily Temperatures" />
     <MESSAGE value="feat(Stack): Add Car Fleet" />
@@ -492,7 +492,8 @@
     <MESSAGE value="feat(BinaryTreeSearch): Add Median of Two Sorted Arrays" />
     <MESSAGE value="feat(LinkedList): Add Reverse Linked List" />
     <MESSAGE value="feat(LinkedList): Add Merge Two Sorted Lists" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(LinkedList): Add Merge Two Sorted Lists" />
+    <MESSAGE value="feat(LinkedList): Add Reorder List" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(LinkedList): Add Reorder List" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

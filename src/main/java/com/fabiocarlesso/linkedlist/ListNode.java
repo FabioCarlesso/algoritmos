@@ -21,4 +21,30 @@ public class ListNode {
             node = node.next;
         }
     }
+    public void append(int newData)
+    {
+        ListNode newNode = new ListNode(newData);
+
+        if (next == null) {
+            next = newNode;
+            return;
+        }
+
+        ListNode last = next;
+        while (last.next != null) {
+            last = last.next;
+        }
+
+        last.next = newNode;
+    }
+    public void createSequenceList(int first, int last){
+        first++;
+        while (first<=last) {
+            if(next == null)
+                next = new ListNode(first);
+            else
+                next.append(first);
+            first++;
+        }
+    }
 }
