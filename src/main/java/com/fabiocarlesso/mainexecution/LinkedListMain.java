@@ -17,6 +17,7 @@ public class LinkedListMain {
         reverseListMain();
         mergeTwoListsMain();
         reorderListMain();
+        removeNthFromEndMain();
     }
     private static void reverseListMain() {
         System.out.println("\nReverse Linked List");
@@ -105,5 +106,32 @@ public class LinkedListMain {
         System.out.println(stringReorder);
         LinkedListFunctions.reorderList(list2);
         list.printList(list2);
+    }
+    private static void removeNthFromEndMain() {
+        System.out.println("\nRemove Nth Node From End of List");
+        ListNode list = new ListNode(1);
+        list.createSequenceList(1,5);
+        System.out.println("\n"+RESULT_CASE_1);
+        System.out.println(LIST_STRING);
+        list.printList(list);
+        String stringRemove = "\nRemove: ";
+        System.out.println(stringRemove);
+        ListNode listRemoved = LinkedListFunctions.removeNthFromEnd(list, 2);
+        list.printList(listRemoved);
+        System.out.println("\n"+RESULT_CASE_2);
+        ListNode list2 = new ListNode(1);
+        System.out.println(LIST_STRING);
+        list.printList(list2);
+        System.out.println(stringRemove);
+        ListNode listRemoved2 = LinkedListFunctions.removeNthFromEnd(list2, 1);
+        list.printList(listRemoved2);
+        System.out.println("\n"+RESULT_CASE_3);
+        ListNode list3 = new ListNode(1);
+        list3.append(2);
+        System.out.println(LIST_STRING);
+        list.printList(list3);
+        System.out.println(stringRemove);
+        ListNode listRemoved3 = LinkedListFunctions.removeNthFromEnd(list3, 1);
+        list.printList(listRemoved3);
     }
 }
