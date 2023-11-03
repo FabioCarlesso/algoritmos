@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(LinkedList): Add Reorder List">
+    <list default="true" id="4108e966-2932-47d6-b863-881c59ab6c9b" name="Changes" comment="feat(LinkedList): Add Remove Nth Node From End of List">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/linkedlist/LinkedListFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/linkedlist/LinkedListFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/LinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/mainexecution/LinkedListMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fabiocarlesso/util/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,14 +259,6 @@
       <option name="project" value="LOCAL" />
       <updated>1687367717842</updated>
     </task>
-    <task id="LOCAL-00084" summary="feat(Stack): Add Daily Temperatures">
-      <option name="closed" value="true" />
-      <created>1696252199261</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1696252199262</updated>
-    </task>
     <task id="LOCAL-00085" summary="feat(Stack): Add Car Fleet">
       <option name="closed" value="true" />
       <created>1696340505702</created>
@@ -452,7 +443,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698784439400</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="feat(LinkedList): Add Remove Nth Node From End of List">
+      <option name="closed" value="true" />
+      <created>1698850414759</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1698850414760</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -467,7 +466,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(Stack): Add Generate Parentheses" />
     <MESSAGE value="feat(Stack): Add Daily Temperatures" />
     <MESSAGE value="feat(Stack): Add Car Fleet" />
     <MESSAGE value="feat(Stack): Add Largest Rectangle in Histogram" />
@@ -492,7 +490,8 @@
     <MESSAGE value="feat(LinkedList): Add Reverse Linked List" />
     <MESSAGE value="feat(LinkedList): Add Merge Two Sorted Lists" />
     <MESSAGE value="feat(LinkedList): Add Reorder List" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(LinkedList): Add Reorder List" />
+    <MESSAGE value="feat(LinkedList): Add Remove Nth Node From End of List" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(LinkedList): Add Remove Nth Node From End of List" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

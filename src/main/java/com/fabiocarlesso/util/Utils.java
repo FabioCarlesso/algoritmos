@@ -1,5 +1,7 @@
 package com.fabiocarlesso.util;
 
+import com.fabiocarlesso.linkedlist.ListNode;
+
 import java.util.Arrays;
 
 public class Utils {
@@ -38,5 +40,12 @@ public class Utils {
     }
     public static void printMatrix(int[][] matrix) {
         Arrays.stream(matrix).map(Arrays::toString).forEach(System.out::println);
+    }
+    public static void printListNode(ListNode node)
+    {
+        while (node != null) {
+            System.out.print(node.val + " ");
+            node = node.next;
+        }
     }
 }
